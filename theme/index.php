@@ -225,6 +225,7 @@
 								<li class="sub-menu-li"><a href="#" class="new-arrivals">Blog<i class="fa fa-chevron-right"></i></a>
 									<!-- Sub Menu -->
 									<ul class="sub-menu">
+										<li><a href="about-us.html"><i class="fa fa-chevron-circle-right"></i> <span>About us</span></a></li>
 										<li><a href="blog.html"><i class="fa fa-chevron-circle-right"></i> <span>Blog</span></a></li>
 										<li><a href="blog-details.html"><i class="fa fa-chevron-circle-right"></i> <span>Blog Details</span></a></li>
 										<li><a href="cart.html"><i class="fa fa-chevron-circle-right"></i> <span>Cart</span></a></li>
@@ -1753,7 +1754,7 @@
 												<li><a href="#">Sitemap</a></li>
 												<li><a href="#">Privacy Policy</a></li>
 												<li><a href="#">Your Account</a></li>
-												<li><a href="#">Advanced Search</a></li>
+												<li><a href="about-us.html">About Us</a></li>
 												<li><a href="#">Contact Us</a></li>
 											</ul>
 										</div>
