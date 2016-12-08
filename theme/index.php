@@ -222,7 +222,7 @@
 										</li>
 									</ul>
 								</li>
-								<li class="sub-menu-li"><a href="#" class="new-arrivals">Pages<i class="fa fa-chevron-right"></i></a>
+								<li class="sub-menu-li"><a href="#" class="new-arrivals">Blog<i class="fa fa-chevron-right"></i></a>
 									<!-- Sub Menu -->
 									<ul class="sub-menu">
 										<li><a href="blog.html"><i class="fa fa-chevron-circle-right"></i> <span>Blog</span></a></li>
@@ -1304,9 +1304,10 @@
 			</div><!-- End Product area -->
 
 			<!-- Product area duplikat-->
-			<div class="product-area">
+			<div class="brand-products-area">
 				<div class="container">
 					<div class="row">
+						<h2 style="text-align: center;">Jelajahi produk khas sumatera utara lainnya</h2><hr>
 						<div class="col-md-12">
 							<!-- Tab Content -->
 							<div class="tab-content">
@@ -1649,118 +1650,6 @@
 			</div>
 			<!-- End Product area -->
 			
-			<!-- Blog Post area -->
-			<div class="blog-post-area brand-products c-carousel-button home-4-blog-post-area">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="blog-post">
-								<div class="row">
-									<div class="col-md-12">
-										<div class="products-head">
-											<div class="products-head-title">
-												<i class="fa fa-picture-o"></i>
-												<h2>Blog posts</h2>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<!-- Blog Post Carousel -->
-						<div id="blog-posts" class="owl-carousel">
-							<div class="col-lg-12 col-md-12">
-								<!-- Blog Post Item area -->
-								<div class="blog-post-item-area">
-									<div class="row">
-										<!-- Blog Post Inner Item Column -->
-										<div class="col-lg-6 col-md-12">
-											<!-- Blog Post Inner Item -->
-											<div class="blog-post-inner-item">
-												<!-- Fetured Product Single Item -->
-												<div class="blog-post-single-item">
-													<div class="single-item-img">
-														<a href="#">
-															<img src="img/blog/b1.png" alt="product">
-														</a>
-													</div>
-													<div class="single-item-content">
-														<h2><a href="#">Claritas est etiam processus dynamicus, qui sequitur</a></h2>
-														<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat...</p>
-													</div>
-												</div><!-- End Blog Post Single Item -->
-											</div><!-- End Blog Post Inner Item -->
-										</div><!-- End Fetured Product Inner Item Column -->
-										<!-- Blog Post Inner Item Column -->
-										<div class="col-lg-6 col-md-12">
-											<!-- Blog Post Inner Item -->
-											<div class="blog-post-inner-item">
-												<!-- Fetured Product Single Item -->
-												<div class="blog-post-single-item">
-													<div class="single-item-img">
-														<a href="#">
-															<img src="img/blog/b2.png" alt="product">
-														</a>
-													</div>
-													<div class="single-item-content">
-														<h2><a href="#">Claritas est etiam processus dynamicus, qui sequitur</a></h2>
-														<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat...</p>
-													</div>
-												</div><!-- End Blog Post Single Item -->
-											</div><!-- End Blog Post Inner Item -->
-										</div><!-- End Fetured Product Inner Item Column -->
-									</div>
-								</div><!-- End Blog Post Item area -->
-							</div>
-							<div class="col-lg-12 col-md-12">
-								<!-- Blog Post Item area -->
-								<div class="blog-post-item-area">
-									<div class="row">
-										<!-- Blog Post Inner Item Column -->
-										<div class="col-lg-6 col-md-12">
-											<!-- Blog Post Inner Item -->
-											<div class="blog-post-inner-item">
-												<!-- Fetured Product Single Item -->
-												<div class="blog-post-single-item">
-													<div class="single-item-img">
-														<a href="#">
-															<img src="img/blog/b3.png" alt="product">
-														</a>
-													</div>
-													<div class="single-item-content">
-														<h2><a href="#">Claritas est etiam processus dynamicus, qui sequitur</a></h2>
-														<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat...</p>
-													</div>
-												</div><!-- End Blog Post Single Item -->
-											</div><!-- End Blog Post Inner Item -->
-										</div><!-- End Fetured Product Inner Item Column -->
-										<!-- Blog Post Inner Item Column -->
-										<div class="col-lg-6 col-md-12">
-											<!-- Blog Post Inner Item -->
-											<div class="blog-post-inner-item">
-												<!-- Fetured Product Single Item -->
-												<div class="blog-post-single-item">
-													<div class="single-item-img">
-														<a href="#">
-															<img src="img/blog/b4.png" alt="product">
-														</a>
-													</div>
-													<div class="single-item-content">
-														<h2><a href="#">Claritas est etiam processus dynamicus, qui sequitur</a></h2>
-														<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat...</p>
-													</div>
-												</div><!-- End Blog Post Single Item -->
-											</div><!-- End Blog Post Inner Item -->
-										</div><!-- End Fetured Product Inner Item Column -->
-									</div>
-								</div><!-- End Blog Post Item area -->
-							</div>
-						</div><!-- End Blog Post Carousel -->
-					</div>
-				</div>
-			</div><!-- End Blog Post area -->
 			<!-- Brand Logo area -->
 			<div class="brand-logo-area">
 				<div class="container">
