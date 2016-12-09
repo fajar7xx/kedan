@@ -507,7 +507,7 @@ body {
 	transform: scaleY(0);
 	transform-origin: 0 0 0;
 	transition: all 0.5s ease 0s;
-	width: 182px;
+	width: 75px;
 }
 .main-menu nav .main-ul .sub-menu>li>a{
 	text-align:left;
@@ -551,7 +551,7 @@ body {
 }
 .main-menu nav .main-ul .mega-menu-ul>li .mega-menu{
 	width:900px;
-	padding:20px;
+	padding:5px;
 	overflow:hidden;
 }
 .main-menu nav .main-ul  .mega-menu-ul>li .mega-menu-two{
@@ -561,8 +561,8 @@ body {
 }
 .main-menu nav .main-ul .mega-menu-ul>li .mega-menu .single-mega-menu{
 	float:left;
-	width:200px;
-	margin-right:20px;
+	width:100px;
+	margin-right:10px;
 }
 .main-menu nav .main-ul .mega-menu-ul>li .mega-menu .single-mega-menu:last-child{
 	margin-right:0px;
@@ -2019,7 +2019,7 @@ h2.product-title a:hover{
 }
 .home-5-main-menu-area .main-menu nav .main-ul .mega-menu-ul {
 	display:none;
-	left: 100%;
+	left: 50%;
 	top: 0;
 	background:#fff;
 }

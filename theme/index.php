@@ -78,70 +78,41 @@
 						<nav>
 							<ul class="main-ul">
 								<li><a href="index.php">Home</a></li>
-								<li><a href="shop.html"> Wanita<i class="fa fa-chevron-right"></i></a>
+								<li><a href="shop.html"> Kerajinan<i class="fa fa-chevron-right"></i></a>
 									<ul class="mega-menu-ul">
 										<li>
 											<!-- Mega Menu -->
 											<div class="mega-menu">
 												<div class="single-mega-menu">
-													<h2><a href="shop.html">Clother</a></h2>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Cocktail</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Day</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Evening</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Sports</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Sexy Dress</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Fsshion Skirt</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Evening Dress</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Children's Clothing</span></a>
-												</div>
-												<div class="single-mega-menu">
-													<h2><a href="shop.html">Dress and skirt</a></h2>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Sports</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Run</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Sandals</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Books</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>A-line Dress</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Lacy Looks</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Shirts-T-Shirts</span></a>
-												</div>
-												<div class="single-mega-menu">
-													<h2><a href="shop.html">shoes</a></h2>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>blazers</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>table</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>coats</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>kids</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Sweater</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Coat</span></a>
+													<h2><a href="shop.html">Bahan Kayu</a></h2>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Wood Art</span></a>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Photo Wood</span></a>
+                                                    <a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Gantungan Kunci</span></a>
 												</div>
 												<div class="single-mega-menu banner-add">
 													<a href="shop.html">
-														<img src="img/cart/menu-img.png" alt="img">
+														<img src="img/cart/menu.jpg" alt="img">
 													</a>
 												</div>
 											</div>
 										</li>
 									</ul>
 								</li>
-								<li class="small-megamenu-li"><a href="shop.html">Pria<i class="fa fa-chevron-right"></i></a>
+								<li class="small-megamenu-li"><a href="shop.html">Pakaian<i class="fa fa-chevron-right"></i></a>
 									<ul class="mega-menu-ul mega-menu-ul-two">
 										<li>
 											<!--Small Mega Menu -->
 											<div class="mega-menu mega-menu-two">
 												<div class="single-mega-menu">
-													<h2><a href="shop.html">Bages</a></h2>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Bootes Bages</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Blazers</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Mermaid</span></a>
+													<h2><a href="shop.html">Baju</a></h2>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>kaos</span></a>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Kemeja</span></a>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Jaket</span></a>
 												</div>
 												<div class="single-mega-menu">
-													<h2><a href="shop.html">Clothing</a></h2>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>coats</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>T-shirt</span></a>
-												</div>
-												<div class="single-mega-menu">
-													<h2><a href="shop.html">lingerie</a></h2>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>brands</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>furniture</span></a>
+													<h2><a href="shop.html">Kain</a></h2>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Ulos</span></a>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Songket</span></a>
 												</div>
 											</div>
 										</li>
@@ -190,33 +161,10 @@
 											<!-- Mega Menu -->
 											<div class="mega-menu">
 												<div class="single-mega-menu">
-													<h2><a href="shop.html">Rings</a></h2>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Coats & jackets</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>blazers</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>raincoats</span></a>
-												</div>
-												<div class="single-mega-menu">
-													<h2><a href="shop.html">Dresses</a></h2>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Ankle Boots</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>footwear</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>clog sandals</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>combat boots</span></a>
-												</div>
-												<div class="single-mega-menu">
-													<h2><a href="shop.html">Accessories</a></h2>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>bootees Bags</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>blazers</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>jackets</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>kids</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>shoes</span></a>
-												</div>
-												<div class="single-mega-menu">
-													<h2><a href="shop.html">Top</a></h2>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>briefs</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>camis</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>nigthwear</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>kids</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>shapewer</span></a>
+													<h2><a href="shop.html">Oleh Oleh</a></h2>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Dodol Pulut</span></a>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Bolu</span></a>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Pancake</span></a>
 												</div>
 											</div>
 										</li>
@@ -246,76 +194,36 @@
 						<nav>
 							<ul>
 								<li class=""><a href="index.html">Home</a>
-									<ul class="sub-menu">
-										<li><a href="index-2.html">Home Page 2</a></li>
-										<li><a href="index-3.html">Home Page 3</a></li>
-										<li><a href="index-4.html">Home Page 4</a></li>
-										<li><a href="index-5.html">Home Page 5</a></li>
-										<li><a href="index-6.html">Home Page 6</a></li>
-									</ul>
 								</li>
-								<li><a href="shop.html">Women</a>
+								<li><a href="shop.html">Kerajinan</a>
 									<ul class="">
-										<li><a href="">Clother</a>
+										<li><a href="">Bahan Kayu</a>
 											<ul>
-												<li><a href="#">Cocktail</a></li>														
-												<li><a href="#">Day</a></li>
-												<li><a href="#">Evening</a></li>
-												<li><a href="#">Sports</a></li>
-												<li><a href="#">Sexy Dress</a></li>
-												<li><a href="#">Fsshion Skirt</a></li>
-												<li><a href="#">Evening Dress</a></li>
-												<li><a href="#">Children's Clothing</a></li>
-											</ul>
-										</li>
-										<li><a href="#">Dress and skirt</a>
-											<ul>
-												<li><a href="#">Sports</a></li>														
-												<li><a href="#">Run</a></li>
-												<li><a href="#">Sandals</a></li>
-												<li><a href="#">Books</a></li>
-												<li><a href="#">A-line Dress</a></li>
-												<li><a href="#">Lacy Looks</a></li>
-												<li><a href="#">Shirts-T-Shirts</a></li>
-											</ul>
-										</li>
-										<li><a href="#">shoes</a>
-											<ul>
-												<li><a href="#">blazers</a></li>														
-												<li><a href="#">table</a></li>
-												<li><a href="#">coats</a></li>
-												<li><a href="#">Sports</a></li>
-												<li><a href="#">kids</a></li>
-												<li><a href="#">Sweater</a></li>
-												<li><a href="#">Coat</a></li>
+												<li><a href="#">Wood Art</a></li>														
+												<li><a href="#">Photo Wood</a></li>
+												<li><a href="#">Gantungan Kunci</a></li>
 											</ul>
 										</li>
 									</ul>
 								</li>
-								<li class=""><a href="shop.html">Men</a>
+								<li class=""><a href="shop.html">Pakaian</a>
 									<ul class="">
-										<li><a href="#">Bages</a>
+										<li><a href="#">Baju</a>
 											<ul>
-												<li><a href="#">Bootes Bages</a></li>														
-												<li><a href="#">Blazers</a></li>
-												<li><a href="#">Mermaid</a></li>
+												<li><a href="#">Baju Ulos Pria</a></li>														
+												<li><a href="#">Baju Ulos Wanita</a></li>
+												<li><a href="#">Kaos</a></li>
 											</ul>
 										</li>
-										<li><a href="#">Clothing</a>
+										<li><a href="#">Kain</a>
 											<ul>
-												<li><a href="#">coats</a></li>														
-												<li><a href="#">T-shirt</a></li>
-											</ul>
-										</li>
-										<li><a href="#">lingerie</a>
-											<ul>
-												<li><a href="#">brands</a></li>														
-												<li><a href="#">furniture</a></li>
+												<li><a href="#">Ulos</a></li>														
+												<li><a href="#">Songket</a></li>
 											</ul>
 										</li>
 									</ul>
 								</li>
-								<li><a href="shop.html">Handbags</a>
+								<li><a href="shop.html">Rumah dan Dekorasi</a>
 									<ul class="">
 										<li><a href="#">Footwear Man</a>
 											<ul>
@@ -343,39 +251,13 @@
 										</li>	
 									</ul>
 								</li>
-								<li><a href="shop.html">Shoes</a>
+								<li><a href="shop.html">Makanan</a>
 									<ul class="">
-										<li><a href="#">Rings</a>
+										<li><a href="#">Oleh Oleh</a>
 											<ul>
-												<li><a href="#">Coats & jackets</a></li>														
-												<li><a href="#">blazers</a></li>
-												<li><a href="#">raincoats</a></li>
-											</ul>	
-										</li>
-										<li><a href="#">Dresses</a>
-											<ul>
-												<li><a href="#">footwear</a></li>														
-												<li><a href="#">blazers</a></li>
-												<li><a href="#">clog sandals</a></li>
-												<li><a href="#">combat boots</a></li>
-											</ul>	
-										</li>
-										<li><a href="#">Accessories</a>
-											<ul>
-												<li><a href="#">bootees Bags</a></li>														
-												<li><a href="#">blazers</a></li>
-												<li><a href="#">jackets</a></li>
-												<li><a href="#">kids</a></li>
-												<li><a href="#">shoes</a></li>
-											</ul>	
-										</li>
-										<li><a href="#">Top</a>
-											<ul>
-												<li><a href="#">briefs</a></li>														
-												<li><a href="#">camis</a></li>
-												<li><a href="#">nigthwear</a></li>
-												<li><a href="#">kids</a></li>
-												<li><a href="#">shapewer</a></li>
+												<li><a href="#">Dodol Pulut</a></li>														
+												<li><a href="#">Bolu</a></li>
+												<li><a href="#">Pancake</a></li>
 											</ul>	
 										</li>
 									</ul>
@@ -451,11 +333,11 @@
 										<div class="cart-list">
 											<div class="cart-list-item">
 												<div class="cart-list-img">
-													<a href="#"><img src="img/cart/c1.jpg" alt="cart" /></a>
+													<a href="product-details.html"><img src="img/cart/c1.jpg" alt="cart" /></a>
 												</div>
 												<div class="cart-content">
-													<a href="#">Etiam gravida</a>
-													<p>1 x <span>$432.00</span></p>
+													<a href="#">Wood Art</a>
+													<p>1 x <span>Rp.200.000</span></p>
 												</div>
 												<div class="cart-button">
 													<a href="#"><i class="fa fa-pencil"></i></a>
@@ -469,8 +351,8 @@
 													<a href="#"><img src="img/cart/c2.jpg" alt="cart" /></a>
 												</div>
 												<div class="cart-content">
-													<a href="#">Etiam gravida</a>
-													<p>1 x <span>$432.00</span></p>
+													<a href="#">Photo Wood</a>
+													<p>1 x <span>Rp.75.000</span></p>
 												</div>
 												<div class="cart-button">
 													<a href="#"><i class="fa fa-pencil"></i></a>
@@ -479,7 +361,7 @@
 											</div>
 										</div>
 										<div class="cart-subtotal">
-											<p>Subtotal: <span>$1,131.00</span></p>
+											<p>Subtotal: <span>Rp.275.000</span></p>
 										</div>
 										<div class="cart-action">
 											<button type="button" class="btn"><span>checkout</span> <i class="fa fa-long-arrow-right"></i></button>
@@ -497,8 +379,8 @@
 				<div class="main-slider">
 					<div class="slider">
 						<div id="mainSlider" class="nivoSlider slider-image">
-							<img src="img/slider/slider8.jpg" alt="main slider" title="#htmlcaption1"/>
-							<img src="img/slider/slider9.jpg" alt="main slider" title="#htmlcaption2"/>
+							<img src="img/slider/slide1.jpg" alt="main slider" title="#htmlcaption1"/>
+							<img src="img/slider/slide2.jpg" alt="main slider" title="#htmlcaption2"/>
 						</div>
 						<!-- Slider Caption One -->
 						<div id="htmlcaption1" class="nivo-html-caption slider-caption-1">
@@ -506,11 +388,11 @@
 							<div class="slide-text">
 								<div class="middle-text">
 									<div class="cap-dec">
-										<h1 class="cap-dec wow zoomInRight" data-wow-duration="1.1s" data-wow-delay="0s">Huge sale</h1>
-										<p class="cap-dec wow zoomInRight" data-wow-duration="1.3s" data-wow-delay="0s"> up to 70% off Fahion collection Shop now</p>
+										<h1 class="cap-dec wow zoomInRight" data-wow-duration="1.1s" data-wow-delay="0s">Rezeki Akhir Tahun</h1>
+										<p class="cap-dec wow zoomInRight" data-wow-duration="1.3s" data-wow-delay="0s"> Diskon hingga 50%</p>
 									</div>	
 									<div class="cap-readmore wow zoomInRight" data-wow-duration=".9s" data-wow-delay=".5s">
-										<a href="#">Shop Now</a>
+										<a href="#">Beli Sekarang</a>
 									</div>	
 								</div>	
 							</div>
@@ -521,11 +403,11 @@
 							<div class="slide-text slide-text-2">
 								<div class="middle-text">
 									<div class="cap-dec">
-										<h1 class="wow zoomInUp" data-wow-duration="1.1s" data-wow-delay="0s">Huge sale</h1>
-										<p class="wow zoomInUp" data-wow-duration="1.3s" data-wow-delay="0s"> up to 70% off Fahion collection Shop now</p>
+										<h1 class="wow zoomInUp" data-wow-duration="1.1s" data-wow-delay="0s">Rezeki Akhir Tahun</h1>
+										<p class="wow zoomInUp" data-wow-duration="1.3s" data-wow-delay="0s">Diskon hingga 50%</p>
 									</div>	
 									<div class="cap-readmore wow zoomInUp" data-wow-duration="1.3s" data-wow-delay=".3s">
-										<a href="#">Shop Now</a>
+										<a href="#">Beli Sekarang</a>
 									</div>	
 								</div>	
 							</div>
@@ -563,8 +445,8 @@
 													<div class="single-product">
 														<div class="single-product-img">
 															<a href="#">
-																<img class="primary-img" src="img/product/sp2.jpg" alt="product">
-																<img class="secondary-img" src="img/product/sp1.jpg" alt="product">
+																<img class="primary-img" src="img/product/stones.jpg" alt="product">
+																<img class="secondary-img" src="img/product/stone.jpg" alt="product">
 															</a>
 															<div class="product-status">
 																<span class="product-new">New</span>
@@ -572,8 +454,8 @@
 														</div>
 														<div class="single-product-content">
 															<div class="product-content-head">
-																<h2 class="product-title"><a href="#">Cras neque metus</a></h2>
-																<p class="product-price">$155.00</p>
+																<h2 class="product-title"><a href="#">Gantungan Kunci Unik</a></h2>
+																<p class="product-price">Rp.25.000</p>
 															</div>
 															<div class="product-bottom-action">
 																<div class="product-action">
@@ -593,8 +475,8 @@
 													<div class="single-product">
 														<div class="single-product-img">
 															<a href="#">
-																<img class="primary-img" src="img/product/sp3.jpg" alt="product">
-																<img class="secondary-img" src="img/product/sp4.jpg" alt="product">
+																<img class="primary-img" src="img/product/pawica.jpg" alt="product">
+																<img class="secondary-img" src="img/product/pawicaa.jpg" alt="product">
 															</a>
 															<div class="product-status">
 																<span class="product-sale">Sale</span>
@@ -602,8 +484,8 @@
 														</div>
 														<div class="single-product-content">
 															<div class="product-content-head">
-																<h2 class="product-title"><a href="#">Cras neque metus</a></h2>
-																<p class="product-price"><span>$205.00</span> $155.00</p>
+																<h2 class="product-title"><a href="#">Wood Art</a></h2>
+																<p class="product-price"><span>Rp.350.000</span> Rp.200.000</p>
 															</div>
 															<div class="product-bottom-action">
 																<div class="product-action">
@@ -623,8 +505,8 @@
 													<div class="single-product">
 														<div class="single-product-img">
 															<a href="#">
-																<img class="primary-img" src="img/product/sp1.jpg" alt="product">
-																<img class="secondary-img" src="img/product/sp5.jpg" alt="product">
+																<img class="primary-img" src="img/product/potowood.jpg" alt="product">
+																<img class="secondary-img" src="img/product/potowood1.jpg" alt="product">
 															</a>
 															<div class="product-status">
 																<span class="product-new">New</span>
@@ -632,8 +514,8 @@
 														</div>
 														<div class="single-product-content">
 															<div class="product-content-head">
-																<h2 class="product-title"><a href="#">Cras neque metus</a></h2>
-																<p class="product-price">$167.00</p>
+																<h2 class="product-title"><a href="#">Photo Wood</a></h2>
+																<p class="product-price">Rp.75.000</p>
 															</div>
 															<div class="product-bottom-action">
 																<div class="product-action">
@@ -653,8 +535,8 @@
 													<div class="single-product">
 														<div class="single-product-img">
 															<a href="#">
-																<img class="primary-img" src="img/product/sp6.jpg" alt="product">
-																<img class="secondary-img" src="img/product/sp19.jpg" alt="product">
+																<img class="primary-img" src="img/product/barnes.jpg" alt="product">
+																<img class="secondary-img" src="img/product/tumpeng.jpg" alt="product">
 															</a>
 															<div class="product-status">
 																<span class="product-new">New</span>
@@ -662,8 +544,8 @@
 														</div>
 														<div class="single-product-content">
 															<div class="product-content-head">
-																<h2 class="product-title"><a href="#">Cras neque metus</a></h2>
-																<p class="product-price">$333.00</p>
+																<h2 class="product-title"><a href="#">Tumpeng Mini</a></h2>
+																<p class="product-price">Rp.250.000</p>
 															</div>
 															<div class="product-bottom-action">
 																<div class="product-action">
@@ -683,8 +565,8 @@
 													<div class="single-product">
 														<div class="single-product-img">
 															<a href="#">
-																<img class="primary-img" src="img/product/sp7.jpg" alt="product">
-																<img class="secondary-img" src="img/product/sp8.jpg" alt="product">
+																<img class="primary-img" src="img/product/pancake.jpg" alt="product">
+																<img class="secondary-img" src="img/product/pancake.jpg" alt="product">
 															</a>
 															<div class="product-status">
 																<span class="product-new">New</span>
@@ -692,8 +574,8 @@
 														</div>
 														<div class="single-product-content">
 															<div class="product-content-head">
-																<h2 class="product-title"><a href="#">Cras neque metus</a></h2>
-																<p class="product-price">$80.00</p>
+																<h2 class="product-title"><a href="#">Pancake Durian</a></h2>
+																<p class="product-price">Rp.35.000</p>
 															</div>
 															<div class="product-bottom-action">
 																<div class="product-action">
@@ -713,8 +595,8 @@
 													<div class="single-product">
 														<div class="single-product-img">
 															<a href="#">
-																<img class="primary-img" src="img/product/sp9.jpg" alt="product">
-																<img class="secondary-img" src="img/product/sp6.jpg" alt="product">
+																<img class="primary-img" src="img/product/medansekitar.jpg" alt="product">
+																<img class="secondary-img" src="img/product/medansekitar.jpg" alt="product">
 															</a>
 															<div class="product-status">
 																<span class="product-sale">Sale</span>
@@ -722,8 +604,8 @@
 														</div>
 														<div class="single-product-content">
 															<div class="product-content-head">
-																<h2 class="product-title"><a href="#">Cras neque metus</a></h2>
-																<p class="product-price"><span>$124.00</span> $134.00</p>
+																<h2 class="product-title"><a href="#">Kaos Medan</a></h2>
+																<p class="product-price">Rp.85.000</p>
 															</div>
 															<div class="product-bottom-action">
 																<div class="product-action">
@@ -743,8 +625,8 @@
 													<div class="single-product">
 														<div class="single-product-img">
 															<a href="#">
-																<img class="primary-img" src="img/product/sp1.jpg" alt="product">
-																<img class="secondary-img" src="img/product/sp2.jpg" alt="product">
+																<img class="primary-img" src="img/product/pawica.jpg" alt="product">
+																<img class="secondary-img" src="img/product/pawica.jpg" alt="product">
 															</a>
 															<div class="product-status">
 																<span class="product-new">New</span>
@@ -752,8 +634,8 @@
 														</div>
 														<div class="single-product-content">
 															<div class="product-content-head">
-																<h2 class="product-title"><a href="#">Cras neque metus</a></h2>
-																<p class="product-price">$155.00</p>
+																<h2 class="product-title"><a href="#">Wood Art</a></h2>
+																<p class="product-price">Rp.200.000</p>
 															</div>
 															<div class="product-bottom-action">
 																<div class="product-action">
@@ -773,8 +655,8 @@
 													<div class="single-product">
 														<div class="single-product-img">
 															<a href="#">
-																<img class="primary-img" src="img/product/sp10.jpg" alt="product">
-																<img class="secondary-img" src="img/product/sp8.jpg" alt="product">
+																<img class="primary-img" src="img/product/stone.jpg" alt="product">
+																<img class="secondary-img" src="img/product/stone.jpg" alt="product">
 															</a>
 															<div class="product-status">
 																<span class="product-new">New</span>
@@ -782,8 +664,8 @@
 														</div>
 														<div class="single-product-content">
 															<div class="product-content-head">
-																<h2 class="product-title"><a href="#">Cras neque metus</a></h2>
-																<p class="product-price">$155.00</p>
+																<h2 class="product-title"><a href="#">Gantungan Kunci</a></h2>
+																<p class="product-price">Rp.25.000</p>
 															</div>
 															<div class="product-bottom-action">
 																<div class="product-action">
@@ -811,8 +693,8 @@
 													<div class="single-product">
 														<div class="single-product-img">
 															<a href="#">
-																<img class="primary-img" src="img/product/sp15.jpg" alt="product">
-																<img class="secondary-img" src="img/product/sp12.jpg" alt="product">
+																<img class="primary-img" src="img/product/medan.jpg" alt="product">
+																<img class="secondary-img" src="img/product/medan.jpg" alt="product">
 															</a>
 															<div class="product-status">
 																<span class="product-sale">Sale</span>
@@ -820,8 +702,8 @@
 														</div>
 														<div class="single-product-content">
 															<div class="product-content-head">
-																<h2 class="product-title"><a href="#">Cras neque metus</a></h2>
-																<p class="product-price"><span>$222.00</span> $143.00</p>
+																<h2 class="product-title"><a href="#">Kaos Medan</a></h2>
+																<p class="product-price">Rp.85.000</p>
 															</div>
 															<div class="product-bottom-action">
 																<div class="product-action">
@@ -841,8 +723,8 @@
 													<div class="single-product">
 														<div class="single-product-img">
 															<a href="#">
-																<img class="primary-img" src="img/product/sp13.jpg" alt="product">
-																<img class="secondary-img" src="img/product/sp7.jpg" alt="product">
+																<img class="primary-img" src="img/product/potowood.jpg" alt="product">
+																<img class="secondary-img" src="img/product/potowood.jpg" alt="product">
 															</a>
 															<div class="product-status">
 																<span class="product-new">New</span>
@@ -850,8 +732,8 @@
 														</div>
 														<div class="single-product-content">
 															<div class="product-content-head">
-																<h2 class="product-title"><a href="#">Cras neque metus</a></h2>
-																<p class="product-price">$155.00</p>
+																<h2 class="product-title"><a href="#">Photo Wood</a></h2>
+																<p class="product-price">Rp.75.000</p>
 															</div>
 															<div class="product-bottom-action">
 																<div class="product-action">
@@ -871,8 +753,8 @@
 													<div class="single-product">
 														<div class="single-product-img">
 															<a href="#">
-																<img class="primary-img" src="img/product/sp17.jpg" alt="product">
-																<img class="secondary-img" src="img/product/sp16.jpg" alt="product">
+																<img class="primary-img" src="img/product/pawicaa.jpg" alt="product">
+																<img class="secondary-img" src="img/product/pawicaa.jpg" alt="product">
 															</a>
 															<div class="product-status">
 																<span class="product-sale">Sale</span>
@@ -880,8 +762,8 @@
 														</div>
 														<div class="single-product-content">
 															<div class="product-content-head">
-																<h2 class="product-title"><a href="#">Cras neque metus</a></h2>
-																<p class="product-price"><span>$100.00</span> $70.00</p>
+																<h2 class="product-title"><a href="#">Wood Art</a></h2>
+																<p class="product-price"><span>Rp.300.000</span>Rp.200.000</p>
 															</div>
 															<div class="product-bottom-action">
 																<div class="product-action">
@@ -901,8 +783,8 @@
 													<div class="single-product">
 														<div class="single-product-img">
 															<a href="#">
-																<img class="primary-img" src="img/product/sp11.jpg" alt="product">
-																<img class="secondary-img" src="img/product/sp12.jpg" alt="product">
+																<img class="primary-img" src="img/product/dodolria.jpg" alt="product">
+																<img class="secondary-img" src="img/product/dodolria.jpg" alt="product">
 															</a>
 															<div class="product-status">
 																<span class="product-new">New</span>
@@ -910,8 +792,8 @@
 														</div>
 														<div class="single-product-content">
 															<div class="product-content-head">
-																<h2 class="product-title"><a href="#">Cras neque metus</a></h2>
-																<p class="product-price">$155.00</p>
+																<h2 class="product-title"><a href="#">Dodol Pulut Khas Tanjung Pura</a></h2>
+																<p class="product-price">Rp.60.000</p>
 															</div>
 															<div class="product-bottom-action">
 																<div class="product-action">
@@ -931,8 +813,8 @@
 													<div class="single-product">
 														<div class="single-product-img">
 															<a href="#">
-																<img class="primary-img" src="img/product/sp16.jpg" alt="product">
-																<img class="secondary-img" src="img/product/sp17.jpg" alt="product">
+																<img class="primary-img" src="img/product/napoleon.jpg" alt="product">
+																<img class="secondary-img" src="img/product/napoleon.jpg" alt="product">
 															</a>
 															<div class="product-status">
 																<span class="product-new">New</span>
@@ -940,8 +822,8 @@
 														</div>
 														<div class="single-product-content">
 															<div class="product-content-head">
-																<h2 class="product-title"><a href="#">Cras neque metus</a></h2>
-																<p class="product-price">$155.00</p>
+																<h2 class="product-title"><a href="#">Bolu Medan Napoleon</a></h2>
+																<p class="product-price">Rp.60.000</p>
 															</div>
 															<div class="product-bottom-action">
 																<div class="product-action">
@@ -961,8 +843,8 @@
 													<div class="single-product">
 														<div class="single-product-img">
 															<a href="#">
-																<img class="primary-img" src="img/product/sp18.jpg" alt="product">
-																<img class="secondary-img" src="img/product/sp18.jpg" alt="product">
+																<img class="primary-img" src="img/product/gorga.jpg" alt="product">
+																<img class="secondary-img" src="img/product/gorga.jpg" alt="product">
 															</a>
 															<div class="product-status">
 																<span class="product-sale">Sale</span>
@@ -970,8 +852,8 @@
 														</div>
 														<div class="single-product-content">
 															<div class="product-content-head">
-																<h2 class="product-title"><a href="#">Cras neque metus</a></h2>
-																<p class="product-price">$155.00</p>
+																<h2 class="product-title"><a href="#">Kain Gorga</a></h2>
+																<p class="product-price">Rp.15.000</p>
 															</div>
 															<div class="product-bottom-action">
 																<div class="product-action">
@@ -991,8 +873,8 @@
 													<div class="single-product">
 														<div class="single-product-img">
 															<a href="#">
-																<img class="primary-img" src="img/product/sp1.jpg" alt="product">
-																<img class="secondary-img" src="img/product/sp2.jpg" alt="product">
+																<img class="primary-img" src="img/product/bajuulos.jpg" alt="product">
+																<img class="secondary-img" src="img/product/bajuulos.jpg" alt="product">
 															</a>
 															<div class="product-status">
 																<span class="product-new">New</span>
@@ -1000,8 +882,8 @@
 														</div>
 														<div class="single-product-content">
 															<div class="product-content-head">
-																<h2 class="product-title"><a href="#">Cras neque metus</a></h2>
-																<p class="product-price">$155.00</p>
+																<h2 class="product-title"><a href="#">Baju Ulos Wanita</a></h2>
+																<p class="product-price">Rp.150.000</p>
 															</div>
 															<div class="product-bottom-action">
 																<div class="product-action">
@@ -1059,8 +941,8 @@
 													<div class="single-product">
 														<div class="single-product-img">
 															<a href="#">
-																<img class="primary-img" src="img/product/sp20.jpg" alt="product">
-																<img class="secondary-img" src="img/product/sp21.jpg" alt="product">
+																<img class="primary-img" src="img/product/tas.jpg" alt="product">
+																<img class="secondary-img" src="img/product/tas.jpg" alt="product">
 															</a>
 															<div class="product-status">
 																<span class="product-new">New</span>
@@ -1068,8 +950,8 @@
 														</div>
 														<div class="single-product-content">
 															<div class="product-content-head">
-																<h2 class="product-title"><a href="#">Cras neque metus</a></h2>
-																<p class="product-price">$155.00</p>
+																<h2 class="product-title"><a href="#">Tas Lukis motif Gorga</a></h2>
+																<p class="product-price">Rp.150.000</p>
 															</div>
 															<div class="product-bottom-action">
 																<div class="product-action">
@@ -1089,8 +971,8 @@
 													<div class="single-product">
 														<div class="single-product-img">
 															<a href="#">
-																<img class="primary-img" src="img/product/sp17.jpg" alt="product">
-																<img class="secondary-img" src="img/product/sp11.jpg" alt="product">
+																<img class="primary-img" src="img/product/barnes.jpg" alt="product">
+																<img class="secondary-img" src="img/product/barnes.jpg" alt="product">
 															</a>
 															<div class="product-status">
 																<span class="product-sale">Sale</span>
@@ -1098,8 +980,8 @@
 														</div>
 														<div class="single-product-content">
 															<div class="product-content-head">
-																<h2 class="product-title"><a href="#">Cras neque metus</a></h2>
-																<p class="product-price"><span>$205.00</span> $155.00</p>
+																<h2 class="product-title"><a href="#">Tumpeng Mini</a></h2>
+																<p class="product-price">Rp.250.000</p>
 															</div>
 															<div class="product-bottom-action">
 																<div class="product-action">
@@ -1119,8 +1001,8 @@
 													<div class="single-product">
 														<div class="single-product-img">
 															<a href="#">
-																<img class="primary-img" src="img/product/sp10.jpg" alt="product">
-																<img class="secondary-img" src="img/product/sp2.jpg" alt="product">
+																<img class="primary-img" src="img/product/pawica.jpg" alt="product">
+																<img class="secondary-img" src="img/product/pawica.jpg" alt="product">
 															</a>
 															<div class="product-status">
 																<span class="product-new">New</span>
@@ -1128,8 +1010,8 @@
 														</div>
 														<div class="single-product-content">
 															<div class="product-content-head">
-																<h2 class="product-title"><a href="#">Cras neque metus</a></h2>
-																<p class="product-price">$155.00</p>
+																<h2 class="product-title"><a href="#">Wood Art</a></h2>
+																<p class="product-price">Rp.200.000</p>
 															</div>
 															<div class="product-bottom-action">
 																<div class="product-action">
@@ -1149,8 +1031,8 @@
 													<div class="single-product">
 														<div class="single-product-img">
 															<a href="#">
-																<img class="primary-img" src="img/product/sp16.jpg" alt="product">
-																<img class="secondary-img" src="img/product/sp20.jpg" alt="product">
+																<img class="primary-img" src="img/product/medansekitar.jpg" alt="product">
+																<img class="secondary-img" src="img/product/medansekitar.jpg" alt="product">
 															</a>
 															<div class="product-status">
 																<span class="product-sale">Sale</span>
@@ -1158,8 +1040,8 @@
 														</div>
 														<div class="single-product-content">
 															<div class="product-content-head">
-																<h2 class="product-title"><a href="#">Cras neque metus</a></h2>
-																<p class="product-price"><span>$80.00</span> $65.00</p>
+																<h2 class="product-title"><a href="#">Kaos Medan</a></h2>
+																<p class="product-price">Rp.85.000</p>
 															</div>
 															<div class="product-bottom-action">
 																<div class="product-action">
@@ -1319,14 +1201,14 @@
 												<div class="single-product">
 													<div class="single-product-img">
 														<a href="#">
-															<img class="primary-img" src="img/product/sp4.jpg" alt="product">
-															<img class="secondary-img" src="img/product/sp9.jpg" alt="product">
+															<img class="primary-img" src="img/product/bajuulos.jpg" alt="product">
+															<img class="secondary-img" src="img/product/bajuulos.jpg" alt="product">
 														</a>
 													</div>
 													<div class="single-product-content">
 														<div class="product-content-head">
-															<h2 class="product-title"><a href="#">Cras neque metus</a></h2>
-															<p class="product-price">$155.00</p>
+															<h2 class="product-title"><a href="#">Baju Ulos</a></h2>
+															<p class="product-price">Rp.150.000</p>
 														</div>
 														<div class="product-bottom-action">
 															<div class="product-action">
@@ -1346,14 +1228,14 @@
 												<div class="single-product">
 													<div class="single-product-img">
 														<a href="#">
-															<img class="primary-img" src="img/product/sp3.jpg" alt="product">
-															<img class="secondary-img" src="img/product/sp19.jpg" alt="product">
+															<img class="primary-img" src="img/product/medan.jpg" alt="product">
+															<img class="secondary-img" src="img/product/medan.jpg" alt="product">
 														</a>
 													</div>
 													<div class="single-product-content">
 														<div class="product-content-head">
-															<h2 class="product-title"><a href="#">Cras neque metus</a></h2>
-															<p class="product-price"><span>$205.00</span>$155.00</p>
+															<h2 class="product-title"><a href="#">Kaos Medan</a></h2>
+															<p class="product-price"><span>Rp.150.000</span>Rp.85.000</p>
 														</div>
 														<div class="product-bottom-action">
 															<div class="product-action">
@@ -1373,14 +1255,14 @@
 												<div class="single-product">
 													<div class="single-product-img">
 														<a href="#">
-															<img class="primary-img" src="img/product/sp2.jpg" alt="product">
-															<img class="secondary-img" src="img/product/sp5.jpg" alt="product">
+															<img class="primary-img" src="img/product/medansekitar.jpg" alt="product">
+															<img class="secondary-img" src="img/product/medansekitar.jpg" alt="product">
 														</a>
 													</div>
 													<div class="single-product-content">
 														<div class="product-content-head">
-															<h2 class="product-title"><a href="#">Cras neque metus</a></h2>
-															<p class="product-price"><span>$205.00</span>$155.00</p>
+															<h2 class="product-title"><a href="#">Kaos Medan</a></h2>
+															<p class="product-price"><span>Rp.150.000</span>Rp.85.000</p>
 														</div>
 														<div class="product-bottom-action">
 															<div class="product-action">
@@ -1400,124 +1282,14 @@
 												<div class="single-product">
 													<div class="single-product-img">
 														<a href="#">
-															<img class="primary-img" src="img/product/sp2.jpg" alt="product">
-															<img class="secondary-img" src="img/product/sp5.jpg" alt="product">
+															<img class="primary-img" src="img/product/gorga.jpg" alt="product">
+															<img class="secondary-img" src="img/product/gorga.jpg" alt="product">
 														</a>
 													</div>
 													<div class="single-product-content">
 														<div class="product-content-head">
-															<h2 class="product-title"><a href="#">Cras neque metus</a></h2>
-															<p class="product-price"><span>$205.00</span>$155.00</p>
-														</div>
-														<div class="product-bottom-action">
-															<div class="product-action">
-																<div class="action-button">
-																	<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>Add to bag</span></button>
-																</div>
-																<div class="action-view">
-																	<button type="button" class="btn" data-toggle="modal" data-target="#productModal"><i class="fa fa-search"></i>Quick view</button>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div><!-- End Single Product Column -->
-										</div>
-										<div class="row tab-content-row">
-											<!-- Start Single Product Column -->
-											<div class="col-md-3 col-sm-3">
-												<div class="single-product">
-													<div class="single-product-img">
-														<a href="#">
-															<img class="primary-img" src="img/product/sp4.jpg" alt="product">
-															<img class="secondary-img" src="img/product/sp9.jpg" alt="product">
-														</a>
-													</div>
-													<div class="single-product-content">
-														<div class="product-content-head">
-															<h2 class="product-title"><a href="#">Cras neque metus</a></h2>
-															<p class="product-price">$155.00</p>
-														</div>
-														<div class="product-bottom-action">
-															<div class="product-action">
-																<div class="action-button">
-																	<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>Add to bag</span></button>
-																</div>
-																<div class="action-view">
-																	<button type="button" class="btn" data-toggle="modal" data-target="#productModal"><i class="fa fa-search"></i>Quick view</button>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div><!-- End Single Product Column -->
-											<!-- Start Single Product Column -->
-											<div class="col-md-3 col-sm-3">
-												<div class="single-product">
-													<div class="single-product-img">
-														<a href="#">
-															<img class="primary-img" src="img/product/sp3.jpg" alt="product">
-															<img class="secondary-img" src="img/product/sp19.jpg" alt="product">
-														</a>
-													</div>
-													<div class="single-product-content">
-														<div class="product-content-head">
-															<h2 class="product-title"><a href="#">Cras neque metus</a></h2>
-															<p class="product-price"><span>$205.00</span>$155.00</p>
-														</div>
-														<div class="product-bottom-action">
-															<div class="product-action">
-																<div class="action-button">
-																	<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>Add to bag</span></button>
-																</div>
-																<div class="action-view">
-																	<button type="button" class="btn" data-toggle="modal" data-target="#productModal"><i class="fa fa-search"></i>Quick view</button>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div><!-- End Single Product Column -->
-											<!-- Start Single Product Column -->
-											<div class="col-md-3 col-sm-3">
-												<div class="single-product">
-													<div class="single-product-img">
-														<a href="#">
-															<img class="primary-img" src="img/product/sp2.jpg" alt="product">
-															<img class="secondary-img" src="img/product/sp5.jpg" alt="product">
-														</a>
-													</div>
-													<div class="single-product-content">
-														<div class="product-content-head">
-															<h2 class="product-title"><a href="#">Cras neque metus</a></h2>
-															<p class="product-price"><span>$205.00</span>$155.00</p>
-														</div>
-														<div class="product-bottom-action">
-															<div class="product-action">
-																<div class="action-button">
-																	<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>Add to bag</span></button>
-																</div>
-																<div class="action-view">
-																	<button type="button" class="btn" data-toggle="modal" data-target="#productModal"><i class="fa fa-search"></i>Quick view</button>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div><!-- End Single Product Column -->
-											<!-- Start Single Product Column -->
-											<div class="col-md-3 col-sm-3">
-												<div class="single-product">
-													<div class="single-product-img">
-														<a href="#">
-															<img class="primary-img" src="img/product/sp2.jpg" alt="product">
-															<img class="secondary-img" src="img/product/sp5.jpg" alt="product">
-														</a>
-													</div>
-													<div class="single-product-content">
-														<div class="product-content-head">
-															<h2 class="product-title"><a href="#">Cras neque metus</a></h2>
-															<p class="product-price"><span>$205.00</span>$155.00</p>
+															<h2 class="product-title"><a href="#">Kain Gorga</a></h2>
+															<p class="product-price">Rp.15.000</p>
 														</div>
 														<div class="product-bottom-action">
 															<div class="product-action">
@@ -1539,14 +1311,14 @@
 												<div class="single-product">
 													<div class="single-product-img">
 														<a href="#">
-															<img class="primary-img" src="img/product/sp4.jpg" alt="product">
-															<img class="secondary-img" src="img/product/sp9.jpg" alt="product">
+															<img class="primary-img" src="img/product/songket.jpg" alt="product">
+															<img class="secondary-img" src="img/product/songket.jpg" alt="product">
 														</a>
 													</div>
 													<div class="single-product-content">
 														<div class="product-content-head">
-															<h2 class="product-title"><a href="#">Cras neque metus</a></h2>
-															<p class="product-price">$155.00</p>
+															<h2 class="product-title"><a href="#">Kain Songket Melayu</a></h2>
+															<p class="product-price">Rp.350.000</p>
 														</div>
 														<div class="product-bottom-action">
 															<div class="product-action">
@@ -1566,14 +1338,14 @@
 												<div class="single-product">
 													<div class="single-product-img">
 														<a href="#">
-															<img class="primary-img" src="img/product/sp3.jpg" alt="product">
-															<img class="secondary-img" src="img/product/sp19.jpg" alt="product">
+															<img class="primary-img" src="img/product/stone.jpg" alt="product">
+															<img class="secondary-img" src="img/product/stone.jpg" alt="product">
 														</a>
 													</div>
 													<div class="single-product-content">
 														<div class="product-content-head">
-															<h2 class="product-title"><a href="#">Cras neque metus</a></h2>
-															<p class="product-price"><span>$205.00</span>$155.00</p>
+															<h2 class="product-title"><a href="#">Gantungan Kunci</a></h2>
+															<p class="product-price">Rp.25.000</p>
 														</div>
 														<div class="product-bottom-action">
 															<div class="product-action">
@@ -1593,14 +1365,14 @@
 												<div class="single-product">
 													<div class="single-product-img">
 														<a href="#">
-															<img class="primary-img" src="img/product/sp2.jpg" alt="product">
-															<img class="secondary-img" src="img/product/sp5.jpg" alt="product">
+															<img class="primary-img" src="img/product/pawicaa.jpg" alt="product">
+															<img class="secondary-img" src="img/product/pawicaa.jpg" alt="product">
 														</a>
 													</div>
 													<div class="single-product-content">
 														<div class="product-content-head">
-															<h2 class="product-title"><a href="#">Cras neque metus</a></h2>
-															<p class="product-price"><span>$205.00</span>$155.00</p>
+															<h2 class="product-title"><a href="#">Wood Art</a></h2>
+															<p class="product-price"><span>Rp.350.000</span>Rp.200.000</p>
 														</div>
 														<div class="product-bottom-action">
 															<div class="product-action">
@@ -1620,14 +1392,124 @@
 												<div class="single-product">
 													<div class="single-product-img">
 														<a href="#">
-															<img class="primary-img" src="img/product/sp2.jpg" alt="product">
-															<img class="secondary-img" src="img/product/sp5.jpg" alt="product">
+															<img class="primary-img" src="img/product/napoleon.jpg" alt="product">
+															<img class="secondary-img" src="img/product/napoleon.jpg" alt="product">
 														</a>
 													</div>
 													<div class="single-product-content">
 														<div class="product-content-head">
-															<h2 class="product-title"><a href="#">Cras neque metus</a></h2>
-															<p class="product-price"><span>$205.00</span>$155.00</p>
+															<h2 class="product-title"><a href="#">Bolu Medan Napoleon</a></h2>
+															<p class="product-price">Rp.60.000</p>
+														</div>
+														<div class="product-bottom-action">
+															<div class="product-action">
+																<div class="action-button">
+																	<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>Add to bag</span></button>
+																</div>
+																<div class="action-view">
+																	<button type="button" class="btn" data-toggle="modal" data-target="#productModal"><i class="fa fa-search"></i>Quick view</button>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div><!-- End Single Product Column -->
+										</div>
+										<div class="row tab-content-row">
+											<!-- Start Single Product Column -->
+											<div class="col-md-3 col-sm-3">
+												<div class="single-product">
+													<div class="single-product-img">
+														<a href="#">
+															<img class="primary-img" src="img/product/dodolria.jpg" alt="product">
+															<img class="secondary-img" src="img/product/dodolria.jpg" alt="product">
+														</a>
+													</div>
+													<div class="single-product-content">
+														<div class="product-content-head">
+															<h2 class="product-title"><a href="#">Dodol Pulut Khas Tanjung Pura</a></h2>
+															<p class="product-price">Rp.60.000</p>
+														</div>
+														<div class="product-bottom-action">
+															<div class="product-action">
+																<div class="action-button">
+																	<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>Add to bag</span></button>
+																</div>
+																<div class="action-view">
+																	<button type="button" class="btn" data-toggle="modal" data-target="#productModal"><i class="fa fa-search"></i>Quick view</button>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div><!-- End Single Product Column -->
+											<!-- Start Single Product Column -->
+											<div class="col-md-3 col-sm-3">
+												<div class="single-product">
+													<div class="single-product-img">
+														<a href="#">
+															<img class="primary-img" src="img/product/pancake.jpg" alt="product">
+															<img class="secondary-img" src="img/product/pancake.jpg" alt="product">
+														</a>
+													</div>
+													<div class="single-product-content">
+														<div class="product-content-head">
+															<h2 class="product-title"><a href="#">Pancake Durian</a></h2>
+															<p class="product-price">Rp.30.000</p>
+														</div>
+														<div class="product-bottom-action">
+															<div class="product-action">
+																<div class="action-button">
+																	<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>Add to bag</span></button>
+																</div>
+																<div class="action-view">
+																	<button type="button" class="btn" data-toggle="modal" data-target="#productModal"><i class="fa fa-search"></i>Quick view</button>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div><!-- End Single Product Column -->
+											<!-- Start Single Product Column -->
+											<div class="col-md-3 col-sm-3">
+												<div class="single-product">
+													<div class="single-product-img">
+														<a href="#">
+															<img class="primary-img" src="img/product/kaos.jpg" alt="product">
+															<img class="secondary-img" src="img/product/kaos.jpg" alt="product">
+														</a>
+													</div>
+													<div class="single-product-content">
+														<div class="product-content-head">
+															<h2 class="product-title"><a href="#">Kaos Tradisional Brastagi</a></h2>
+															<p class="product-price">Rp.25.000</p>
+														</div>
+														<div class="product-bottom-action">
+															<div class="product-action">
+																<div class="action-button">
+																	<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>Add to bag</span></button>
+																</div>
+																<div class="action-view">
+																	<button type="button" class="btn" data-toggle="modal" data-target="#productModal"><i class="fa fa-search"></i>Quick view</button>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div><!-- End Single Product Column -->
+											<!-- Start Single Product Column -->
+											<div class="col-md-3 col-sm-3">
+												<div class="single-product">
+													<div class="single-product-img">
+														<a href="#">
+															<img class="primary-img" src="img/product/tas.jpg" alt="product">
+															<img class="secondary-img" src="img/product/tas.jpg" alt="product">
+														</a>
+													</div>
+													<div class="single-product-content">
+														<div class="product-content-head">
+															<h2 class="product-title"><a href="#">Tas Lukis Motif Gorga</a></h2>
+															<p class="product-price">Rp.150.000</p>
 														</div>
 														<div class="product-bottom-action">
 															<div class="product-action">
@@ -1661,54 +1543,34 @@
 						<div id="brands-logo" class="owl-carousel">
 							<div class="single-brand-logo">
 								<a href="#">
-									<img src="img/brand-logo/blogo1.png" alt="logo">
+									<img src="img/brand-logo/pawyca.jpg" alt="logo">
 								</a>
 							</div>
 							<div class="single-brand-logo">
 								<a href="#">
-									<img src="img/brand-logo/blogo5.png" alt="logo">
+									<img src="img/brand-logo/mas.jpg" alt="logo">
 								</a>
 							</div>
 							<div class="single-brand-logo">
 								<a href="#">
-									<img src="img/brand-logo/blogo2.png" alt="logo">
+									<img src="img/brand-logo/barnes.jpg" alt="logo">
 								</a>
 							</div>
 							<div class="single-brand-logo">
 								<a href="#">
-									<img src="img/brand-logo/blogo3.png" alt="logo">
+									<img src="img/brand-logo/pawyca.jpg" alt="logo">
 								</a>
 							</div>
 							<div class="single-brand-logo">
 								<a href="#">
-									<img src="img/brand-logo/blogo4.png" alt="logo">
+									<img src="img/brand-logo/mas.jpg" alt="logo">
 								</a>
 							</div>
 							<div class="single-brand-logo">
 								<a href="#">
-									<img src="img/brand-logo/blogo1.png" alt="logo">
+									<img src="img/brand-logo/barnes.jpg" alt="logo">
 								</a>
-							</div>
-							<div class="single-brand-logo">
-								<a href="#">
-									<img src="img/brand-logo/blogo5.png" alt="logo">
-								</a>
-							</div>
-							<div class="single-brand-logo">
-								<a href="#">
-									<img src="img/brand-logo/blogo3.png" alt="logo">
-								</a>
-							</div>
-							<div class="single-brand-logo">
-								<a href="#">
-									<img src="img/brand-logo/blogo4.png" alt="logo">
-								</a>
-							</div>
-							<div class="single-brand-logo">
-								<a href="#">
-									<img src="img/brand-logo/blogo2.png" alt="logo">
-								</a>
-							</div>
+                            </div>
 						</div>
 					</div>
 				</div>
@@ -1724,15 +1586,15 @@
 								<div class="footer-left">
 									<!-- Footer Logog -->
 									<div class="footer-logo">
-										<a href="index.php"><img src="img/logo/logo-footer.png" alt="logo"></a>
+										<a href="index.php"><img src="img/logo/fix.png" alt="logo"></a>
 									</div>
 									<div class="footer-static-content">
-										<p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram.</p>
+										<p>Sebuah portal jual beli online yang memfokuskan diri pada Usaha mikro kecil dan menengah yang terdapat di Kota Medan dan sekitarnya.</p>
 									</div>
 									<div class="footer-payment">
 										<h2>Payments</h2>
 										<ul>
-											<li><a href="#"><img src="img/logo/payment.png" alt="payment"></a></li>
+											<li><a href="#"><img src="img/logo/pembayaran.png" alt="payment"></a></li>
 										</ul>
 									</div>
 								</div><!-- End Footer Left -->
@@ -1754,7 +1616,7 @@
 												<li><a href="#">Sitemap</a></li>
 												<li><a href="#">Privacy Policy</a></li>
 												<li><a href="#">Your Account</a></li>
-												<li><a href="about-us.html">Tentang Kedan</a></li>
+												<li><a href="about-us.html">About Us</a></li>
 												<li><a href="#">Contact Us</a></li>
 											</ul>
 										</div>
@@ -1788,7 +1650,7 @@
 					<div class="container">
 						<!-- Copyright -->
 						<div class="copyright">
-							<p>Copyright &copy; <a href="http://bootexperts.com/">BootExperts</a> All Rights Reserved.</p>
+							<p>Copyright &copy; <a href="#">BootExperts</a> All Rights Reserved.</p>
 						</div>
 					</div>
 				</div><!-- End Footer Bottom -->
@@ -1807,14 +1669,14 @@
 							<div class="modal-product">
 								<div class="product-images">
 									<div class="main-image images">
-										<img alt="product" src="img/product/sp2.jpg">
+										<img alt="product" src="img/product/pawica.jpg">
 									</div>
 								</div><!-- .product-images -->
 								
 								<div class="product-info">
-									<h1>Cras neque metus</h1>
+									<h1>Wood Art</h1>
 									<div class="price-box">
-										<p class="price"><span class="special-price"><span class="amount">$155.00</span></span></p>
+										<p class="price"><span class="special-price"><span class="amount">Rp.200.000</span></span></p>
 									</div>
 									<a href="product-details.html" class="see-all">See all features</a>
 									<div class="quick-add-to-cart">
@@ -1833,7 +1695,7 @@
 										</form>
 									</div>
 									<div class="quick-desc">
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla augue nec est tristique auctor. Donec non est at libero vulputate rutrum. Morbi ornare lectus quis justo gravida semper. Nulla tellus mi, vulputate adipiscing cursus eu, suscipit id nulla.
+										Premium handcrafted wood art by Pawyca Project. Cocok untuk kado ulangtahun maupun wisuda teman dan sahabat terdekat.
 									</div>
 									<div class="social-sharing">
 										<div class="widget widget_socialsharing_widget">
