@@ -1754,7 +1754,7 @@
 												<li><a href="#">Sitemap</a></li>
 												<li><a href="#">Privacy Policy</a></li>
 												<li><a href="#">Your Account</a></li>
-												<li><a href="about-us.html">About Us</a></li>
+												<li><a href="about-us.html">Tentang Kedan</a></li>
 												<li><a href="#">Contact Us</a></li>
 											</ul>
 										</div>
