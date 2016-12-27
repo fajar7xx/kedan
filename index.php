@@ -1,5 +1,12 @@
 <?php  
+require_once 'includes/koneksi.php';
 
-echo "kedan";
-echo '<br><a href="theme/index.php" title="home">Home</a>';
+
+include 'theme/head.php';
+include 'theme/navigation.php';
+include 'theme/slider.php';
+include 'theme/produk-beranda.php';
+include 'theme/footer.php';
+
+
 ?>
