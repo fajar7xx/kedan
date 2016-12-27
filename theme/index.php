@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Kedan - Home || Marketplace Khas Sumatera Utara</title>
+        <title>Kedan - Home | Marketplace Khas Sumatera Utara</title>
         <meta name="description" content="marketplace yang menjual produk UKM khas sumatera utara">
         <meta name="keywords" content="ukm sumatera utara, kerajinan tangan, batak, ulos, batik">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -52,7 +52,7 @@
         <link rel="stylesheet" href="css/main.css">
 		<!-- style CSS
 		============================================ -->
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/style.css">
 		<!-- responsive CSS
 		============================================ -->
         <link rel="stylesheet" href="css/responsive.css">
@@ -71,54 +71,84 @@
 				<div class="header-logo">
 					<a href="index.php"><img src="img/logo/logo.png" alt="Kedan, jual handy craft khas sumatera utara"></a>
 				</div>
+
 				<!-- Main Menu Area -->
 				<div class="main-menu-area home-5-main-menu-area">
 					<!-- Main Menu -->
 					<div class="main-menu hidden-sm hidden-xs">
 						<nav>
 							<ul class="main-ul">
-								<li><a href="index.php">Home</a></li>
-								<li><a href="shop.html"> Kerajinan<i class="fa fa-chevron-right"></i></a>
+								<li class="sub-menu-li"><a href="index.html" class="active">Home</a></li>
+								<li><a href="shop.html">Wanita<i class="fa fa-chevron-right"></i></a>
 									<ul class="mega-menu-ul">
 										<li>
 											<!-- Mega Menu -->
 											<div class="mega-menu">
 												<div class="single-mega-menu">
-													<h2><a href="shop.html">Bahan Kayu</a></h2>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Wood Art</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Photo Wood</span></a>
-                                                    <a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Gantungan Kunci</span></a>
+													<h2><a href="shop.html">Clother</a></h2>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Cocktail</span></a>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Day</span></a>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Evening</span></a>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Sports</span></a>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Sexy Dress</span></a>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Fsshion Skirt</span></a>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Evening Dress</span></a>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Children's Clothing</span></a>
+												</div>
+												<div class="single-mega-menu">
+													<h2><a href="shop.html">Dress and skirt</a></h2>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Sports</span></a>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Run</span></a>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Sandals</span></a>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Books</span></a>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>A-line Dress</span></a>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Lacy Looks</span></a>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Shirts-T-Shirts</span></a>
+												</div>
+												<div class="single-mega-menu">
+													<h2><a href="shop.html">shoes</a></h2>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>blazers</span></a>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>table</span></a>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>coats</span></a>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>kids</span></a>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Sweater</span></a>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Coat</span></a>
 												</div>
 												<div class="single-mega-menu banner-add">
 													<a href="shop.html">
-														<img src="img/cart/menu.jpg" alt="img">
+														<img src="img/cart/menu-img.png" alt="img">
 													</a>
 												</div>
 											</div>
 										</li>
 									</ul>
 								</li>
-								<li class="small-megamenu-li"><a href="shop.html">Pakaian<i class="fa fa-chevron-right"></i></a>
+								<li class="small-megamenu-li"><a href="shop.html">Pria<i class="fa fa-chevron-right"></i></a>
 									<ul class="mega-menu-ul mega-menu-ul-two">
 										<li>
 											<!--Small Mega Menu -->
 											<div class="mega-menu mega-menu-two">
 												<div class="single-mega-menu">
-													<h2><a href="shop.html">Baju</a></h2>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>kaos</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Kemeja</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Jaket</span></a>
+													<h2><a href="shop.html">Bages</a></h2>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Bootes Bages</span></a>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Blazers</span></a>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Mermaid</span></a>
 												</div>
 												<div class="single-mega-menu">
-													<h2><a href="shop.html">Kain</a></h2>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Ulos</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Songket</span></a>
+													<h2><a href="shop.html">Clothing</a></h2>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>coats</span></a>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>T-shirt</span></a>
+												</div>
+												<div class="single-mega-menu">
+													<h2><a href="shop.html">lingerie</a></h2>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>brands</span></a>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>furniture</span></a>
 												</div>
 											</div>
 										</li>
 									</ul>
 								</li>
-								<li><a href="shop.html">Rumah & Dekorasi<i class="fa fa-chevron-right"></i></a>
+								<li><a href="shop.html">Handbags<i class="fa fa-chevron-right"></i></a>
 									<ul class="mega-menu-ul">
 										<li>
 											<!-- Mega Menu -->
@@ -161,19 +191,41 @@
 											<!-- Mega Menu -->
 											<div class="mega-menu">
 												<div class="single-mega-menu">
-													<h2><a href="shop.html">Oleh Oleh</a></h2>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Dodol Pulut</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Bolu</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Pancake</span></a>
+													<h2><a href="shop.html">Rings</a></h2>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Coats & jackets</span></a>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>blazers</span></a>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>raincoats</span></a>
+												</div>
+												<div class="single-mega-menu">
+													<h2><a href="shop.html">Dresses</a></h2>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Ankle Boots</span></a>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>footwear</span></a>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>clog sandals</span></a>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>combat boots</span></a>
+												</div>
+												<div class="single-mega-menu">
+													<h2><a href="shop.html">Accessories</a></h2>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>bootees Bags</span></a>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>blazers</span></a>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>jackets</span></a>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>kids</span></a>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>shoes</span></a>
+												</div>
+												<div class="single-mega-menu">
+													<h2><a href="shop.html">Top</a></h2>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>briefs</span></a>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>camis</span></a>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>nigthwear</span></a>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>kids</span></a>
+													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>shapewer</span></a>
 												</div>
 											</div>
 										</li>
 									</ul>
 								</li>
-								<li class="sub-menu-li"><a href="#" class="new-arrivals">Blog<i class="fa fa-chevron-right"></i></a>
+								<li class="sub-menu-li"><a href="#" class="new-arrivals">Pages<i class="fa fa-chevron-right"></i></a>
 									<!-- Sub Menu -->
 									<ul class="sub-menu">
-										<li><a href="about-us.html"><i class="fa fa-chevron-circle-right"></i> <span>About us</span></a></li>
 										<li><a href="blog.html"><i class="fa fa-chevron-circle-right"></i> <span>Blog</span></a></li>
 										<li><a href="blog-details.html"><i class="fa fa-chevron-circle-right"></i> <span>Blog Details</span></a></li>
 										<li><a href="cart.html"><i class="fa fa-chevron-circle-right"></i> <span>Cart</span></a></li>
@@ -193,37 +245,69 @@
 					<div class="mobile-menu hidden-md hidden-lg">
 						<nav>
 							<ul>
-								<li class=""><a href="index.html">Home</a>
-								</li>
-								<li><a href="shop.html">Kerajinan</a>
+								<li class=""><a href="index.html">Home</a></li>
+								<li><a href="shop.html">Fashion Wanita</a>
 									<ul class="">
-										<li><a href="">Bahan Kayu</a>
+										<li><a href="">Clother</a>
 											<ul>
-												<li><a href="#">Wood Art</a></li>														
-												<li><a href="#">Photo Wood</a></li>
-												<li><a href="#">Gantungan Kunci</a></li>
+												<li><a href="#">Cocktail</a></li>														
+												<li><a href="#">Day</a></li>
+												<li><a href="#">Evening</a></li>
+												<li><a href="#">Sports</a></li>
+												<li><a href="#">Sexy Dress</a></li>
+												<li><a href="#">Fsshion Skirt</a></li>
+												<li><a href="#">Evening Dress</a></li>
+												<li><a href="#">Children's Clothing</a></li>
+											</ul>
+										</li>
+										<li><a href="#">Dress and skirt</a>
+											<ul>
+												<li><a href="#">Sports</a></li>														
+												<li><a href="#">Run</a></li>
+												<li><a href="#">Sandals</a></li>
+												<li><a href="#">Books</a></li>
+												<li><a href="#">A-line Dress</a></li>
+												<li><a href="#">Lacy Looks</a></li>
+												<li><a href="#">Shirts-T-Shirts</a></li>
+											</ul>
+										</li>
+										<li><a href="#">shoes</a>
+											<ul>
+												<li><a href="#">blazers</a></li>														
+												<li><a href="#">table</a></li>
+												<li><a href="#">coats</a></li>
+												<li><a href="#">Sports</a></li>
+												<li><a href="#">kids</a></li>
+												<li><a href="#">Sweater</a></li>
+												<li><a href="#">Coat</a></li>
 											</ul>
 										</li>
 									</ul>
 								</li>
-								<li class=""><a href="shop.html">Pakaian</a>
+								<li class=""><a href="shop.html">Fashion Pria</a>
 									<ul class="">
-										<li><a href="#">Baju</a>
+										<li><a href="#">Bages</a>
 											<ul>
-												<li><a href="#">Baju Ulos Pria</a></li>														
-												<li><a href="#">Baju Ulos Wanita</a></li>
-												<li><a href="#">Kaos</a></li>
+												<li><a href="#">Bootes Bages</a></li>														
+												<li><a href="#">Blazers</a></li>
+												<li><a href="#">Mermaid</a></li>
 											</ul>
 										</li>
-										<li><a href="#">Kain</a>
+										<li><a href="#">Clothing</a>
 											<ul>
-												<li><a href="#">Ulos</a></li>														
-												<li><a href="#">Songket</a></li>
+												<li><a href="#">coats</a></li>														
+												<li><a href="#">T-shirt</a></li>
+											</ul>
+										</li>
+										<li><a href="#">lingerie</a>
+											<ul>
+												<li><a href="#">brands</a></li>														
+												<li><a href="#">furniture</a></li>
 											</ul>
 										</li>
 									</ul>
 								</li>
-								<li><a href="shop.html">Rumah dan Dekorasi</a>
+								<li><a href="shop.html">Handbags</a>
 									<ul class="">
 										<li><a href="#">Footwear Man</a>
 											<ul>
@@ -253,11 +337,37 @@
 								</li>
 								<li><a href="shop.html">Makanan</a>
 									<ul class="">
-										<li><a href="#">Oleh Oleh</a>
+										<li><a href="#">Rings</a>
 											<ul>
-												<li><a href="#">Dodol Pulut</a></li>														
-												<li><a href="#">Bolu</a></li>
-												<li><a href="#">Pancake</a></li>
+												<li><a href="#">Coats & jackets</a></li>														
+												<li><a href="#">blazers</a></li>
+												<li><a href="#">raincoats</a></li>
+											</ul>	
+										</li>
+										<li><a href="#">Dresses</a>
+											<ul>
+												<li><a href="#">footwear</a></li>														
+												<li><a href="#">blazers</a></li>
+												<li><a href="#">clog sandals</a></li>
+												<li><a href="#">combat boots</a></li>
+											</ul>	
+										</li>
+										<li><a href="#">Accessories</a>
+											<ul>
+												<li><a href="#">bootees Bags</a></li>														
+												<li><a href="#">blazers</a></li>
+												<li><a href="#">jackets</a></li>
+												<li><a href="#">kids</a></li>
+												<li><a href="#">shoes</a></li>
+											</ul>	
+										</li>
+										<li><a href="#">Top</a>
+											<ul>
+												<li><a href="#">briefs</a></li>														
+												<li><a href="#">camis</a></li>
+												<li><a href="#">nigthwear</a></li>
+												<li><a href="#">kids</a></li>
+												<li><a href="#">shapewer</a></li>
 											</ul>	
 										</li>
 									</ul>
@@ -279,7 +389,9 @@
 							</ul>
 						</nav>
 					</div><!-- End Mobile Menu -->
-				</div><!-- End Main Menu Area -->
+				</div>
+				<!-- End Main Menu Area -->
+				
 				<!-- Header Search -->
 				<div class="header-search">
 					<form action="#" method="get">
@@ -293,7 +405,10 @@
 						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
 						<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
 						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
 						<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+						<li><a href="#"><i class="fa fa-tumblr"></i></a></li>
 					</ul>
 				</div>
 				<!-- Header Link -->
@@ -373,6 +488,7 @@
 					</div>
 				</div><!-- End Header Cart Area-->
 			</div><!-- End Header Area -->
+
 			<!-- Main Slider Area -->
 			<div class="main-slider-area home-4-main-slaider-area entire-home-main-slider home-5-main-slaider-area">
 				<!-- Main Slider -->
@@ -382,7 +498,8 @@
 							<img src="img/slider/slide1.jpg" alt="main slider" title="#htmlcaption1"/>
 							<img src="img/slider/slide2.jpg" alt="main slider" title="#htmlcaption2"/>
 						</div>
-						<!-- Slider Caption One -->
+
+						<!-- Slider Caption One
 						<div id="htmlcaption1" class="nivo-html-caption slider-caption-1">
 							<div class="slider-progress"></div>									
 							<div class="slide-text">
@@ -396,8 +513,8 @@
 									</div>	
 								</div>	
 							</div>
-						</div>
-						<!-- Slider Caption Two -->
+						</div>-->
+						<!-- Slider Caption Two
 						<div id="htmlcaption2" class="nivo-html-caption slider-caption-2">
 							<div class="slider-progress"></div>					
 							<div class="slide-text slide-text-2">
@@ -411,781 +528,12 @@
 									</div>	
 								</div>	
 							</div>
-						</div>
+						</div>-->
+
 					</div>
 				</div><!-- End Main Slider -->
 			</div><!-- End Main Slider Area -->		
-			<!-- Product area -->
-			<div class="product-area">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-							<!-- Product Top Bar -->
-							<div class="product-top-bar customize-tab-bar">
-								<!-- Tab Button -->
-								<ul class="nav nav-tabs" role="tablist">
-									<li role="presentation" class="active"><a href="#p-bestseller" data-toggle="tab"><i class="fa fa-pencil-square-o"></i>bestseller</a></li>
-									<li role="presentation"><a href="#p-new" data-toggle="tab"><i class="fa fa-star"></i>New Products</a></li>
-									<li role="presentation"><a href="#p-random" data-toggle="tab"><i class="fa fa-picture-o"></i>Random Products</a></li>
-								</ul><!-- End Tab Button -->
-							</div><!-- End Product Top Bar -->
-						</div>
-						<div class="col-md-12">
-							<!-- Single Product area -->
-							<div class="single-product-area c-carousel-button">	
-								<!-- Tab Content -->
-								<div class="tab-content">
-									<!-- Tab Pane One -->
-									<div class="tab-pane active" id="p-bestseller">
-										<div class="row">
-											<!-- Single Product Carousel-->
-											<div id="single-product-bestseller" class="owl-carousel">
-												<!-- Start Single Product Column-->
-												<div class="col-md-3">
-													<div class="single-product">
-														<div class="single-product-img">
-															<a href="#">
-																<img class="primary-img" src="img/product/stones.jpg" alt="product">
-																<img class="secondary-img" src="img/product/stone.jpg" alt="product">
-															</a>
-															<div class="product-status">
-																<span class="product-new">New</span>
-															</div>
-														</div>
-														<div class="single-product-content">
-															<div class="product-content-head">
-																<h2 class="product-title"><a href="#">Gantungan Kunci Unik</a></h2>
-																<p class="product-price">Rp.25.000</p>
-															</div>
-															<div class="product-bottom-action">
-																<div class="product-action">
-																	<div class="action-button">
-																		<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>Add to bag</span></button>
-																	</div>
-																	<div class="action-view">
-																		<button type="button" class="btn" data-toggle="modal" data-target="#productModal"><i class="fa fa-search"></i>Quick view</button>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div><!-- End Single Product Column -->
-												<!-- Start Single Product Column -->
-												<div class="col-md-3">
-													<div class="single-product">
-														<div class="single-product-img">
-															<a href="#">
-																<img class="primary-img" src="img/product/pawica.jpg" alt="product">
-																<img class="secondary-img" src="img/product/pawicaa.jpg" alt="product">
-															</a>
-															<div class="product-status">
-																<span class="product-sale">Sale</span>
-															</div>
-														</div>
-														<div class="single-product-content">
-															<div class="product-content-head">
-																<h2 class="product-title"><a href="#">Wood Art</a></h2>
-																<p class="product-price"><span>Rp.350.000</span> Rp.200.000</p>
-															</div>
-															<div class="product-bottom-action">
-																<div class="product-action">
-																	<div class="action-button">
-																		<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>Add to bag</span></button>
-																	</div>
-																	<div class="action-view">
-																		<button type="button" class="btn" data-toggle="modal" data-target="#productModal"><i class="fa fa-search"></i>Quick view</button>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div><!-- End Single Product Column -->
-												<!-- Start Single Product Column -->
-												<div class="col-md-3">
-													<div class="single-product">
-														<div class="single-product-img">
-															<a href="#">
-																<img class="primary-img" src="img/product/potowood.jpg" alt="product">
-																<img class="secondary-img" src="img/product/potowood1.jpg" alt="product">
-															</a>
-															<div class="product-status">
-																<span class="product-new">New</span>
-															</div>
-														</div>
-														<div class="single-product-content">
-															<div class="product-content-head">
-																<h2 class="product-title"><a href="#">Photo Wood</a></h2>
-																<p class="product-price">Rp.75.000</p>
-															</div>
-															<div class="product-bottom-action">
-																<div class="product-action">
-																	<div class="action-button">
-																		<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>Add to bag</span></button>
-																	</div>
-																	<div class="action-view">
-																		<button type="button" class="btn" data-toggle="modal" data-target="#productModal"><i class="fa fa-search"></i>Quick view</button>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div><!-- End Single Product Column -->
-												<!-- Start Single Product Column -->
-												<div class="col-md-3">
-													<div class="single-product">
-														<div class="single-product-img">
-															<a href="#">
-																<img class="primary-img" src="img/product/barnes.jpg" alt="product">
-																<img class="secondary-img" src="img/product/tumpeng.jpg" alt="product">
-															</a>
-															<div class="product-status">
-																<span class="product-new">New</span>
-															</div>
-														</div>
-														<div class="single-product-content">
-															<div class="product-content-head">
-																<h2 class="product-title"><a href="#">Tumpeng Mini</a></h2>
-																<p class="product-price">Rp.250.000</p>
-															</div>
-															<div class="product-bottom-action">
-																<div class="product-action">
-																	<div class="action-button">
-																		<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>Add to bag</span></button>
-																	</div>
-																	<div class="action-view">
-																		<button type="button" class="btn" data-toggle="modal" data-target="#productModal"><i class="fa fa-search"></i>Quick view</button>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div><!-- End Single Product Column -->
-												<!-- Start Single Product Column -->
-												<div class="col-md-3">
-													<div class="single-product">
-														<div class="single-product-img">
-															<a href="#">
-																<img class="primary-img" src="img/product/pancake.jpg" alt="product">
-																<img class="secondary-img" src="img/product/pancake.jpg" alt="product">
-															</a>
-															<div class="product-status">
-																<span class="product-new">New</span>
-															</div>
-														</div>
-														<div class="single-product-content">
-															<div class="product-content-head">
-																<h2 class="product-title"><a href="#">Pancake Durian</a></h2>
-																<p class="product-price">Rp.35.000</p>
-															</div>
-															<div class="product-bottom-action">
-																<div class="product-action">
-																	<div class="action-button">
-																		<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>Add to bag</span></button>
-																	</div>
-																	<div class="action-view">
-																		<button type="button" class="btn" data-toggle="modal" data-target="#productModal"><i class="fa fa-search"></i>Quick view</button>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div><!-- End Single Product Column -->
-												<!-- Start Single Product Column -->
-												<div class="col-md-3">
-													<div class="single-product">
-														<div class="single-product-img">
-															<a href="#">
-																<img class="primary-img" src="img/product/medansekitar.jpg" alt="product">
-																<img class="secondary-img" src="img/product/medansekitar.jpg" alt="product">
-															</a>
-															<div class="product-status">
-																<span class="product-sale">Sale</span>
-															</div>
-														</div>
-														<div class="single-product-content">
-															<div class="product-content-head">
-																<h2 class="product-title"><a href="#">Kaos Medan</a></h2>
-																<p class="product-price">Rp.85.000</p>
-															</div>
-															<div class="product-bottom-action">
-																<div class="product-action">
-																	<div class="action-button">
-																		<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>Add to bag</span></button>
-																	</div>
-																	<div class="action-view">
-																		<button type="button" class="btn" data-toggle="modal" data-target="#productModal"><i class="fa fa-search"></i>Quick view</button>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div><!-- End Single Product Column -->
-												<!-- Start Single Product Column -->
-												<div class="col-md-3">
-													<div class="single-product">
-														<div class="single-product-img">
-															<a href="#">
-																<img class="primary-img" src="img/product/pawica.jpg" alt="product">
-																<img class="secondary-img" src="img/product/pawica.jpg" alt="product">
-															</a>
-															<div class="product-status">
-																<span class="product-new">New</span>
-															</div>
-														</div>
-														<div class="single-product-content">
-															<div class="product-content-head">
-																<h2 class="product-title"><a href="#">Wood Art</a></h2>
-																<p class="product-price">Rp.200.000</p>
-															</div>
-															<div class="product-bottom-action">
-																<div class="product-action">
-																	<div class="action-button">
-																		<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>Add to bag</span></button>
-																	</div>
-																	<div class="action-view">
-																		<button type="button" class="btn" data-toggle="modal" data-target="#productModal"><i class="fa fa-search"></i>Quick view</button>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div><!-- End Single Product Column -->
-												<!-- Start Single Product Column -->
-												<div class="col-md-3">
-													<div class="single-product">
-														<div class="single-product-img">
-															<a href="#">
-																<img class="primary-img" src="img/product/stone.jpg" alt="product">
-																<img class="secondary-img" src="img/product/stone.jpg" alt="product">
-															</a>
-															<div class="product-status">
-																<span class="product-new">New</span>
-															</div>
-														</div>
-														<div class="single-product-content">
-															<div class="product-content-head">
-																<h2 class="product-title"><a href="#">Gantungan Kunci</a></h2>
-																<p class="product-price">Rp.25.000</p>
-															</div>
-															<div class="product-bottom-action">
-																<div class="product-action">
-																	<div class="action-button">
-																		<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>Add to bag</span></button>
-																	</div>
-																	<div class="action-view">
-																		<button type="button" class="btn" data-toggle="modal" data-target="#productModal"><i class="fa fa-search"></i>Quick view</button>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div><!-- End Single Product Column -->
-											</div><!-- End Single Product Carousel-->
-										</div>
-									</div><!-- End Tab Pane One -->
-									<!-- Tab Pane Two -->
-									<div class="tab-pane" id="p-new">
-										<div class="row">
-											<!-- Single Product Carousel-->
-											<div id="single-product-new" class="owl-carousel">
-												<!-- Start Single Product Column -->
-												<div class="col-md-3">
-													<div class="single-product">
-														<div class="single-product-img">
-															<a href="#">
-																<img class="primary-img" src="img/product/medan.jpg" alt="product">
-																<img class="secondary-img" src="img/product/medan.jpg" alt="product">
-															</a>
-															<div class="product-status">
-																<span class="product-sale">Sale</span>
-															</div>
-														</div>
-														<div class="single-product-content">
-															<div class="product-content-head">
-																<h2 class="product-title"><a href="#">Kaos Medan</a></h2>
-																<p class="product-price">Rp.85.000</p>
-															</div>
-															<div class="product-bottom-action">
-																<div class="product-action">
-																	<div class="action-button">
-																		<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>Add to bag</span></button>
-																	</div>
-																	<div class="action-view">
-																		<button type="button" class="btn" data-toggle="modal" data-target="#productModal"><i class="fa fa-search"></i>Quick view</button>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div><!-- End Single Product Column -->
-												<!-- Start Single Product Column -->
-												<div class="col-md-3">
-													<div class="single-product">
-														<div class="single-product-img">
-															<a href="#">
-																<img class="primary-img" src="img/product/potowood.jpg" alt="product">
-																<img class="secondary-img" src="img/product/potowood.jpg" alt="product">
-															</a>
-															<div class="product-status">
-																<span class="product-new">New</span>
-															</div>
-														</div>
-														<div class="single-product-content">
-															<div class="product-content-head">
-																<h2 class="product-title"><a href="#">Photo Wood</a></h2>
-																<p class="product-price">Rp.75.000</p>
-															</div>
-															<div class="product-bottom-action">
-																<div class="product-action">
-																	<div class="action-button">
-																		<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>Add to bag</span></button>
-																	</div>
-																	<div class="action-view">
-																		<button type="button" class="btn" data-toggle="modal" data-target="#productModal"><i class="fa fa-search"></i>Quick view</button>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div><!-- End Single Product Column -->
-												<!-- Start Single Product Column -->
-												<div class="col-md-3">
-													<div class="single-product">
-														<div class="single-product-img">
-															<a href="#">
-																<img class="primary-img" src="img/product/pawicaa.jpg" alt="product">
-																<img class="secondary-img" src="img/product/pawicaa.jpg" alt="product">
-															</a>
-															<div class="product-status">
-																<span class="product-sale">Sale</span>
-															</div>
-														</div>
-														<div class="single-product-content">
-															<div class="product-content-head">
-																<h2 class="product-title"><a href="#">Wood Art</a></h2>
-																<p class="product-price"><span>Rp.300.000</span>Rp.200.000</p>
-															</div>
-															<div class="product-bottom-action">
-																<div class="product-action">
-																	<div class="action-button">
-																		<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>Add to bag</span></button>
-																	</div>
-																	<div class="action-view">
-																		<button type="button" class="btn" data-toggle="modal" data-target="#productModal"><i class="fa fa-search"></i>Quick view</button>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div><!-- End Single Product Column -->
-												<!-- Start Single Product Column -->
-												<div class="col-md-3">
-													<div class="single-product">
-														<div class="single-product-img">
-															<a href="#">
-																<img class="primary-img" src="img/product/dodolria.jpg" alt="product">
-																<img class="secondary-img" src="img/product/dodolria.jpg" alt="product">
-															</a>
-															<div class="product-status">
-																<span class="product-new">New</span>
-															</div>
-														</div>
-														<div class="single-product-content">
-															<div class="product-content-head">
-																<h2 class="product-title"><a href="#">Dodol Pulut Khas Tanjung Pura</a></h2>
-																<p class="product-price">Rp.60.000</p>
-															</div>
-															<div class="product-bottom-action">
-																<div class="product-action">
-																	<div class="action-button">
-																		<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>Add to bag</span></button>
-																	</div>
-																	<div class="action-view">
-																		<button type="button" class="btn" data-toggle="modal" data-target="#productModal"><i class="fa fa-search"></i>Quick view</button>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div><!-- End Single Product Column -->
-												<!-- Start Single Product Column -->
-												<div class="col-md-3">
-													<div class="single-product">
-														<div class="single-product-img">
-															<a href="#">
-																<img class="primary-img" src="img/product/napoleon.jpg" alt="product">
-																<img class="secondary-img" src="img/product/napoleon.jpg" alt="product">
-															</a>
-															<div class="product-status">
-																<span class="product-new">New</span>
-															</div>
-														</div>
-														<div class="single-product-content">
-															<div class="product-content-head">
-																<h2 class="product-title"><a href="#">Bolu Medan Napoleon</a></h2>
-																<p class="product-price">Rp.60.000</p>
-															</div>
-															<div class="product-bottom-action">
-																<div class="product-action">
-																	<div class="action-button">
-																		<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>Add to bag</span></button>
-																	</div>
-																	<div class="action-view">
-																		<button type="button" class="btn" data-toggle="modal" data-target="#productModal"><i class="fa fa-search"></i>Quick view</button>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div><!-- End Single Product Column -->
-												<!-- Start Single Product Column -->
-												<div class="col-md-3">
-													<div class="single-product">
-														<div class="single-product-img">
-															<a href="#">
-																<img class="primary-img" src="img/product/gorga.jpg" alt="product">
-																<img class="secondary-img" src="img/product/gorga.jpg" alt="product">
-															</a>
-															<div class="product-status">
-																<span class="product-sale">Sale</span>
-															</div>
-														</div>
-														<div class="single-product-content">
-															<div class="product-content-head">
-																<h2 class="product-title"><a href="#">Kain Gorga</a></h2>
-																<p class="product-price">Rp.15.000</p>
-															</div>
-															<div class="product-bottom-action">
-																<div class="product-action">
-																	<div class="action-button">
-																		<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>Add to bag</span></button>
-																	</div>
-																	<div class="action-view">
-																		<button type="button" class="btn" data-toggle="modal" data-target="#productModal"><i class="fa fa-search"></i>Quick view</button>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div><!-- End Single Product Column -->
-												<!-- Start Single Product Column -->
-												<div class="col-md-3">
-													<div class="single-product">
-														<div class="single-product-img">
-															<a href="#">
-																<img class="primary-img" src="img/product/bajuulos.jpg" alt="product">
-																<img class="secondary-img" src="img/product/bajuulos.jpg" alt="product">
-															</a>
-															<div class="product-status">
-																<span class="product-new">New</span>
-															</div>
-														</div>
-														<div class="single-product-content">
-															<div class="product-content-head">
-																<h2 class="product-title"><a href="#">Baju Ulos Wanita</a></h2>
-																<p class="product-price">Rp.150.000</p>
-															</div>
-															<div class="product-bottom-action">
-																<div class="product-action">
-																	<div class="action-button">
-																		<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>Add to bag</span></button>
-																	</div>
-																	<div class="action-view">
-																		<button type="button" class="btn" data-toggle="modal" data-target="#productModal"><i class="fa fa-search"></i>Quick view</button>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div><!-- End Single Product Column -->
-												<!-- Start Single Product Column -->
-												<div class="col-md-3">
-													<div class="single-product">
-														<div class="single-product-img">
-															<a href="#">
-																<img class="primary-img" src="img/product/sp19.jpg" alt="product">
-																<img class="secondary-img" src="img/product/sp20.jpg" alt="product">
-															</a>
-															<div class="product-status">
-																<span class="product-new">New</span>
-															</div>
-														</div>
-														<div class="single-product-content">
-															<div class="product-content-head">
-																<h2 class="product-title"><a href="#">Cras neque metus</a></h2>
-																<p class="product-price">$155.00</p>
-															</div>
-															<div class="product-bottom-action">
-																<div class="product-action">
-																	<div class="action-button">
-																		<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>Add to bag</span></button>
-																	</div>
-																	<div class="action-view">
-																		<button type="button" class="btn" data-toggle="modal" data-target="#productModal"><i class="fa fa-search"></i>Quick view</button>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div><!-- End Single Product Column -->
-											</div><!-- End Single Product Carousel-->
-										</div>
-									</div><!-- End Tab Pane Two -->
-									<!-- Tab Pane Three -->
-									<div role="tabpanel" class="tab-pane" id="p-random">
-										<div class="row">
-											<!-- Single Product Carousel-->
-											<div id="single-product-random" class="owl-carousel">
-												<!-- Start Single Product Column -->
-												<div class="col-md-3">
-													<div class="single-product">
-														<div class="single-product-img">
-															<a href="#">
-																<img class="primary-img" src="img/product/tas.jpg" alt="product">
-																<img class="secondary-img" src="img/product/tas.jpg" alt="product">
-															</a>
-															<div class="product-status">
-																<span class="product-new">New</span>
-															</div>
-														</div>
-														<div class="single-product-content">
-															<div class="product-content-head">
-																<h2 class="product-title"><a href="#">Tas Lukis motif Gorga</a></h2>
-																<p class="product-price">Rp.150.000</p>
-															</div>
-															<div class="product-bottom-action">
-																<div class="product-action">
-																	<div class="action-button">
-																		<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>Add to bag</span></button>
-																	</div>
-																	<div class="action-view">
-																		<button type="button" class="btn" data-toggle="modal" data-target="#productModal"><i class="fa fa-search"></i>Quick view</button>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div><!-- End Single Product Column -->
-												<!-- Start Single Product Column -->
-												<div class="col-md-3">
-													<div class="single-product">
-														<div class="single-product-img">
-															<a href="#">
-																<img class="primary-img" src="img/product/barnes.jpg" alt="product">
-																<img class="secondary-img" src="img/product/barnes.jpg" alt="product">
-															</a>
-															<div class="product-status">
-																<span class="product-sale">Sale</span>
-															</div>
-														</div>
-														<div class="single-product-content">
-															<div class="product-content-head">
-																<h2 class="product-title"><a href="#">Tumpeng Mini</a></h2>
-																<p class="product-price">Rp.250.000</p>
-															</div>
-															<div class="product-bottom-action">
-																<div class="product-action">
-																	<div class="action-button">
-																		<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>Add to bag</span></button>
-																	</div>
-																	<div class="action-view">
-																		<button type="button" class="btn" data-toggle="modal" data-target="#productModal"><i class="fa fa-search"></i>Quick view</button>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div><!-- End Single Product Column -->
-												<!-- Start Single Product Column -->
-												<div class="col-md-3">
-													<div class="single-product">
-														<div class="single-product-img">
-															<a href="#">
-																<img class="primary-img" src="img/product/pawica.jpg" alt="product">
-																<img class="secondary-img" src="img/product/pawica.jpg" alt="product">
-															</a>
-															<div class="product-status">
-																<span class="product-new">New</span>
-															</div>
-														</div>
-														<div class="single-product-content">
-															<div class="product-content-head">
-																<h2 class="product-title"><a href="#">Wood Art</a></h2>
-																<p class="product-price">Rp.200.000</p>
-															</div>
-															<div class="product-bottom-action">
-																<div class="product-action">
-																	<div class="action-button">
-																		<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>Add to bag</span></button>
-																	</div>
-																	<div class="action-view">
-																		<button type="button" class="btn" data-toggle="modal" data-target="#productModal"><i class="fa fa-search"></i>Quick view</button>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div><!-- End Single Product Column -->
-												<!-- Start Single Product Column -->
-												<div class="col-md-3">
-													<div class="single-product">
-														<div class="single-product-img">
-															<a href="#">
-																<img class="primary-img" src="img/product/medansekitar.jpg" alt="product">
-																<img class="secondary-img" src="img/product/medansekitar.jpg" alt="product">
-															</a>
-															<div class="product-status">
-																<span class="product-sale">Sale</span>
-															</div>
-														</div>
-														<div class="single-product-content">
-															<div class="product-content-head">
-																<h2 class="product-title"><a href="#">Kaos Medan</a></h2>
-																<p class="product-price">Rp.85.000</p>
-															</div>
-															<div class="product-bottom-action">
-																<div class="product-action">
-																	<div class="action-button">
-																		<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>Add to bag</span></button>
-																	</div>
-																	<div class="action-view">
-																		<button type="button" class="btn" data-toggle="modal" data-target="#productModal"><i class="fa fa-search"></i>Quick view</button>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div><!-- End Single Product Column -->
-												<!-- Start Single Product Column -->
-												<div class="col-md-3">
-													<div class="single-product">
-														<div class="single-product-img">
-															<a href="#">
-																<img class="primary-img" src="img/product/sp18.jpg" alt="product">
-																<img class="secondary-img" src="img/product/sp19.jpg" alt="product">
-															</a>
-															<div class="product-status">
-																<span class="product-new">New</span>
-															</div>
-														</div>
-														<div class="single-product-content">
-															<div class="product-content-head">
-																<h2 class="product-title"><a href="#">Cras neque metus</a></h2>
-																<p class="product-price">$155.00</p>
-															</div>
-															<div class="product-bottom-action">
-																<div class="product-action">
-																	<div class="action-button">
-																		<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>Add to bag</span></button>
-																	</div>
-																	<div class="action-view">
-																		<button type="button" class="btn" data-toggle="modal" data-target="#productModal"><i class="fa fa-search"></i>Quick view</button>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div><!-- End Single Product Column -->
-												<!-- Start Single Product Column -->
-												<div class="col-md-3">
-													<div class="single-product">
-														<div class="single-product-img">
-															<a href="#">
-																<img class="primary-img" src="img/product/sp11.jpg" alt="product">
-																<img class="secondary-img" src="img/product/sp21.jpg" alt="product">
-															</a>
-															<div class="product-status">
-																<span class="product-sale">Sale</span>
-															</div>
-														</div>
-														<div class="single-product-content">
-															<div class="product-content-head">
-																<h2 class="product-title"><a href="#">Cras neque metus</a></h2>
-																<p class="product-price">$155.00</p>
-															</div>
-															<div class="product-bottom-action">
-																<div class="product-action">
-																	<div class="action-button">
-																		<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>Add to bag</span></button>
-																	</div>
-																	<div class="action-view">
-																		<button type="button" class="btn" data-toggle="modal" data-target="#productModal"><i class="fa fa-search"></i>Quick view</button>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div><!-- End Single Product Column -->
-												<!-- Start Single Product Column -->
-												<div class="col-md-3">
-													<div class="single-product">
-														<div class="single-product-img">
-															<a href="#">
-																<img class="primary-img" src="img/product/sp1.jpg" alt="product">
-																<img class="secondary-img" src="img/product/sp2.jpg" alt="product">
-															</a>
-															<div class="product-status">
-																<span class="product-new">New</span>
-															</div>
-														</div>
-														<div class="single-product-content">
-															<div class="product-content-head">
-																<h2 class="product-title"><a href="#">Cras neque metus</a></h2>
-																<p class="product-price">$155.00</p>
-															</div>
-															<div class="product-bottom-action">
-																<div class="product-action">
-																	<div class="action-button">
-																		<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>Add to bag</span></button>
-																	</div>
-																	<div class="action-view">
-																		<button type="button" class="btn" data-toggle="modal" data-target="#productModal"><i class="fa fa-search"></i>Quick view</button>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div><!-- End Single Product Column -->
-												<!-- Start Single Product Column -->
-												<div class="col-md-3">
-													<div class="single-product">
-														<div class="single-product-img">
-															<a href="#">
-																<img class="primary-img" src="img/product/sp13.jpg" alt="product">
-																<img class="secondary-img" src="img/product/sp5.jpg" alt="product">
-															</a>
-															<div class="product-status">
-																<span class="product-new">New</span>
-															</div>
-														</div>
-														<div class="single-product-content">
-															<div class="product-content-head">
-																<h2 class="product-title"><a href="#">Cras neque metus</a></h2>
-																<p class="product-price">$155.00</p>
-															</div>
-															<div class="product-bottom-action">
-																<div class="product-action">
-																	<div class="action-button">
-																		<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>Add to bag</span></button>
-																	</div>
-																	<div class="action-view">
-																		<button type="button" class="btn" data-toggle="modal" data-target="#productModal"><i class="fa fa-search"></i>Quick view</button>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div><!-- End Single Product Column -->
-											</div><!-- End Single Product Carousel-->
-										</div>
-									</div><!-- End Tab Pane Three -->
-								</div><!-- End Tab Content -->
-							</div><!-- End Single Product area -->
-						</div>
-					</div>
-				</div>
-			</div><!-- End Product area -->
-
+			
 			<!-- Product area duplikat-->
 			<div class="brand-products-area">
 				<div class="container">
@@ -1213,7 +561,7 @@
 														<div class="product-bottom-action">
 															<div class="product-action">
 																<div class="action-button">
-																	<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>Add to bag</span></button>
+																	<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>BELI SEKARANG</span></button>
 																</div>
 																<div class="action-view">
 																	<button type="button" class="btn" data-toggle="modal" data-target="#productModal"><i class="fa fa-search"></i>Quick view</button>
@@ -1240,7 +588,7 @@
 														<div class="product-bottom-action">
 															<div class="product-action">
 																<div class="action-button">
-																	<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>Add to bag</span></button>
+																	<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>BELI SEKARANG</span></button>
 																</div>
 																<div class="action-view">
 																	<button type="button" class="btn" data-toggle="modal" data-target="#productModal"><i class="fa fa-search"></i>Quick view</button>
@@ -1267,7 +615,7 @@
 														<div class="product-bottom-action">
 															<div class="product-action">
 																<div class="action-button">
-																	<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>Add to bag</span></button>
+																	<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>BELI SEKARANG</span></button>
 																</div>
 																<div class="action-view">
 																	<button type="button" class="btn" data-toggle="modal" data-target="#productModal"><i class="fa fa-search"></i>Quick view</button>
@@ -1294,7 +642,7 @@
 														<div class="product-bottom-action">
 															<div class="product-action">
 																<div class="action-button">
-																	<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>Add to bag</span></button>
+																	<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>BELI SEKARANG</span></button>
 																</div>
 																<div class="action-view">
 																	<button type="button" class="btn" data-toggle="modal" data-target="#productModal"><i class="fa fa-search"></i>Quick view</button>
@@ -1323,7 +671,7 @@
 														<div class="product-bottom-action">
 															<div class="product-action">
 																<div class="action-button">
-																	<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>Add to bag</span></button>
+																	<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>BELI SEKARANG</span></button>
 																</div>
 																<div class="action-view">
 																	<button type="button" class="btn" data-toggle="modal" data-target="#productModal"><i class="fa fa-search"></i>Quick view</button>
@@ -1350,7 +698,7 @@
 														<div class="product-bottom-action">
 															<div class="product-action">
 																<div class="action-button">
-																	<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>Add to bag</span></button>
+																	<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>BELI SEKARANG</span></button>
 																</div>
 																<div class="action-view">
 																	<button type="button" class="btn" data-toggle="modal" data-target="#productModal"><i class="fa fa-search"></i>Quick view</button>
@@ -1377,7 +725,7 @@
 														<div class="product-bottom-action">
 															<div class="product-action">
 																<div class="action-button">
-																	<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>Add to bag</span></button>
+																	<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>BELI SEKARANG</span></button>
 																</div>
 																<div class="action-view">
 																	<button type="button" class="btn" data-toggle="modal" data-target="#productModal"><i class="fa fa-search"></i>Quick view</button>
@@ -1404,7 +752,7 @@
 														<div class="product-bottom-action">
 															<div class="product-action">
 																<div class="action-button">
-																	<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>Add to bag</span></button>
+																	<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>BELI SEKARANG</span></button>
 																</div>
 																<div class="action-view">
 																	<button type="button" class="btn" data-toggle="modal" data-target="#productModal"><i class="fa fa-search"></i>Quick view</button>
@@ -1433,7 +781,7 @@
 														<div class="product-bottom-action">
 															<div class="product-action">
 																<div class="action-button">
-																	<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>Add to bag</span></button>
+																	<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>BELI SEKARANG</span></button>
 																</div>
 																<div class="action-view">
 																	<button type="button" class="btn" data-toggle="modal" data-target="#productModal"><i class="fa fa-search"></i>Quick view</button>
@@ -1460,7 +808,7 @@
 														<div class="product-bottom-action">
 															<div class="product-action">
 																<div class="action-button">
-																	<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>Add to bag</span></button>
+																	<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>BELI SEKARANG</span></button>
 																</div>
 																<div class="action-view">
 																	<button type="button" class="btn" data-toggle="modal" data-target="#productModal"><i class="fa fa-search"></i>Quick view</button>
@@ -1487,7 +835,7 @@
 														<div class="product-bottom-action">
 															<div class="product-action">
 																<div class="action-button">
-																	<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>Add to bag</span></button>
+																	<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>BELI SEKARANG</span></button>
 																</div>
 																<div class="action-view">
 																	<button type="button" class="btn" data-toggle="modal" data-target="#productModal"><i class="fa fa-search"></i>Quick view</button>
@@ -1514,7 +862,7 @@
 														<div class="product-bottom-action">
 															<div class="product-action">
 																<div class="action-button">
-																	<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>Add to bag</span></button>
+																	<button class="btn" type="button"><i class="fa fa-shopping-cart"></i> <span>BELI SEKARANG</span></button>
 																</div>
 																<div class="action-view">
 																	<button type="button" class="btn" data-toggle="modal" data-target="#productModal"><i class="fa fa-search"></i>Quick view</button>
