@@ -950,7 +950,7 @@ h2.product-title a{
 	color: #696969;
 }
 p.product-price{
-	color: #ed4f50;
+	color: #3c78d8;
 	font-family: Montserrat;
 	font-size: 18px;
 	margin: 10px 0 5px;
@@ -979,7 +979,7 @@ p.product-price span{
 }
 .single-product .action-button button{
 	background: #eeeeee none repeat scroll 0 0;
-	border-radius: 25px;
+	/*border-radius: 25px;*/
 	color: #7d7d7d;
 	display: block;
 	font-family: Montserrat;
@@ -992,7 +992,7 @@ p.product-price span{
 	text-transform: uppercase;
 	transition: all 0.3s ease 0s;
 	white-space: nowrap;
-	width: 105px;
+	width: 100%;
 }
 .single-product .action-button button i{
 	color: #fff;
