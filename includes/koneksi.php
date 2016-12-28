@@ -6,7 +6,7 @@ $dbpass = "";
 $dbname = "kedan";
 
 // mealkukan koneksi ke database
-$sb = mysqli_connect($dbhost,$dbuser,$dbpass,$dbname);
+$db = mysqli_connect($dbhost,$dbuser,$dbpass,$dbname);
 
 // cek jika ada kesalahan koneksi
 if(mysqli_connect_errno()){

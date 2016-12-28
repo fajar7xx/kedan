@@ -1,3 +1,8 @@
+<?php 
+$sql = "SELECT * FROM kategori WHERE parent = 0";
+$pquery = $db->query($sql);
+?>		
+
 		<div class="wrraper home-5-area">
 			<!-- Header Area -->
 			<div class="header-area">
@@ -13,152 +18,25 @@
 						<nav>
 							<ul class="main-ul">
 								<li class="sub-menu-li"><a href="index.php" class="active">Home</a></li>
-								<li><a href="shop.html">Wanita<i class="fa fa-chevron-right"></i></a>
-									<ul class="mega-menu-ul">
-										<li>
-											<!-- Mega Menu -->
-											<div class="mega-menu">
-												<div class="single-mega-menu">
-													<h2><a href="shop.html">Clother</a></h2>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Cocktail</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Day</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Evening</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Sports</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Sexy Dress</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Fsshion Skirt</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Evening Dress</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Children's Clothing</span></a>
-												</div>
-												<div class="single-mega-menu">
-													<h2><a href="shop.html">Dress and skirt</a></h2>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Sports</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Run</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Sandals</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Books</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>A-line Dress</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Lacy Looks</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Shirts-T-Shirts</span></a>
-												</div>
-												<div class="single-mega-menu">
-													<h2><a href="shop.html">shoes</a></h2>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>blazers</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>table</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>coats</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>kids</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Sweater</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Coat</span></a>
-												</div>
-												<div class="single-mega-menu banner-add">
-													<a href="shop.html">
-														<img src="img/cart/menu-img.png" alt="img">
-													</a>
-												</div>
-											</div>
-										</li>
-									</ul>
-								</li>
-								<li class="small-megamenu-li"><a href="shop.html">Pria<i class="fa fa-chevron-right"></i></a>
-									<ul class="mega-menu-ul mega-menu-ul-two">
-										<li>
-											<!--Small Mega Menu -->
-											<div class="mega-menu mega-menu-two">
-												<div class="single-mega-menu">
-													<h2><a href="shop.html">Bages</a></h2>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Bootes Bages</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Blazers</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Mermaid</span></a>
-												</div>
-												<div class="single-mega-menu">
-													<h2><a href="shop.html">Clothing</a></h2>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>coats</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>T-shirt</span></a>
-												</div>
-												<div class="single-mega-menu">
-													<h2><a href="shop.html">lingerie</a></h2>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>brands</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>furniture</span></a>
-												</div>
-											</div>
-										</li>
-									</ul>
-								</li>
-								<li><a href="shop.html">Handbags<i class="fa fa-chevron-right"></i></a>
-									<ul class="mega-menu-ul">
-										<li>
-											<!-- Mega Menu -->
-											<div class="mega-menu">
-												<div class="single-mega-menu">
-													<h2><a href="shop.html">Footwear Man</a></h2>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Gold Rigng</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>paltinum Rings</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Silver Ring</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Tungsten Ring</span></a>
-												</div>
-												<div class="single-mega-menu">
-													<h2><a href="shop.html">Footwear Womens</a></h2>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Bands Gold</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>platinum Bands</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Silver Bands</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Tungsten Bands</span></a>
-												</div>
-												<div class="single-mega-menu">
-													<h2><a href="shop.html">Rings</a></h2>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Platinum Bracelets</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Gold Ring</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>silver ring</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Diamond Bracelets</span></a>
-												</div>
-												<div class="single-mega-menu">
-													<h2><a href="shop.html">Band</a></h2>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Platinum Necklaces</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Gold Ring</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Silver Ring</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Sunglasses</span></a>
-												</div>
-											</div>
-										</li>
-									</ul>
-								</li>
-								<li><a href="shop.html">Makanan<i class="fa fa-chevron-right"></i></a>
-									<ul class="mega-menu-ul">
-										<li>
-											<!-- Mega Menu -->
-											<div class="mega-menu">
-												<div class="single-mega-menu">
-													<h2><a href="shop.html">Rings</a></h2>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Coats & jackets</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>blazers</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>raincoats</span></a>
-												</div>
-												<div class="single-mega-menu">
-													<h2><a href="shop.html">Dresses</a></h2>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>Ankle Boots</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>footwear</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>clog sandals</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>combat boots</span></a>
-												</div>
-												<div class="single-mega-menu">
-													<h2><a href="shop.html">Accessories</a></h2>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>bootees Bags</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>blazers</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>jackets</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>kids</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>shoes</span></a>
-												</div>
-												<div class="single-mega-menu">
-													<h2><a href="shop.html">Top</a></h2>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>briefs</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>camis</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>nigthwear</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>kids</span></a>
-													<a href="shop.html"><i class="fa fa-chevron-circle-right"></i> <span>shapewer</span></a>
-												</div>
-											</div>
-										</li>
-									</ul>
-								</li>
+								
+								<!-- menu items -->
+								<?php while($parent = mysqli_fetch_assoc($pquery)) : ?>
+									<?php 
+									$parent_id = $parent['id_kategori']; 
+									$sql2 = "SELECT * FROM kategori WHERE parent = '$parent_id'";
+									$cquery = $db->query($sql2);
+									?>
+
+									<li class="sub-menu-li"><a href="#" class="new-arrivals"><?php echo $parent['nm_kategori'] ?><i class="fa fa-chevron-right"></i></a>
+										<ul class="sub-menu">
+											<?php while($child = mysqli_fetch_assoc($cquery)): ?>
+											<li><a href="#"><i class="fa fa-chevron-circle-right"></i> <span><?php echo $child['nm_kategori'] ?></span></a></li>
+											<?php endwhile; ?>
+										</ul>
+									</li>
+								<?php endwhile; ?>
+
 								<li class="sub-menu-li"><a href="#" class="new-arrivals">Pages<i class="fa fa-chevron-right"></i></a>
-									<!-- Sub Menu -->
 									<ul class="sub-menu">
 										<li><a href="blog.html"><i class="fa fa-chevron-circle-right"></i> <span>Blog</span></a></li>
 										<li><a href="blog-details.html"><i class="fa fa-chevron-circle-right"></i> <span>Blog Details</span></a></li>
@@ -172,140 +50,34 @@
 										<li><a href="wishlist.html"><i class="fa fa-chevron-circle-right"></i> <span>Wishlist</span></a></li>
 									</ul>
 								</li>
+
 							</ul>
 						</nav>
 					</div><!-- End Main Menu -->
+
 					<!-- Start Mobile Menu -->
 					<div class="mobile-menu hidden-md hidden-lg">
 						<nav>
 							<ul>
 								<li class=""><a href="index.html">Home</a></li>
-								<li><a href="shop.html">Fashion Wanita</a>
-									<ul class="">
-										<li><a href="">Clother</a>
-											<ul>
-												<li><a href="#">Cocktail</a></li>														
-												<li><a href="#">Day</a></li>
-												<li><a href="#">Evening</a></li>
-												<li><a href="#">Sports</a></li>
-												<li><a href="#">Sexy Dress</a></li>
-												<li><a href="#">Fsshion Skirt</a></li>
-												<li><a href="#">Evening Dress</a></li>
-												<li><a href="#">Children's Clothing</a></li>
-											</ul>
-										</li>
-										<li><a href="#">Dress and skirt</a>
-											<ul>
-												<li><a href="#">Sports</a></li>														
-												<li><a href="#">Run</a></li>
-												<li><a href="#">Sandals</a></li>
-												<li><a href="#">Books</a></li>
-												<li><a href="#">A-line Dress</a></li>
-												<li><a href="#">Lacy Looks</a></li>
-												<li><a href="#">Shirts-T-Shirts</a></li>
-											</ul>
-										</li>
-										<li><a href="#">shoes</a>
-											<ul>
-												<li><a href="#">blazers</a></li>														
-												<li><a href="#">table</a></li>
-												<li><a href="#">coats</a></li>
-												<li><a href="#">Sports</a></li>
-												<li><a href="#">kids</a></li>
-												<li><a href="#">Sweater</a></li>
-												<li><a href="#">Coat</a></li>
-											</ul>
-										</li>
+								
+								<!-- menu items -->
+								<?php while($parent = mysqli_fetch_assoc($pquery)) : ?>
+									
+									<?php 
+									$parent_id = $parent['id_kategori']; 
+									$sql2 = "SELECT * FROM kategori WHERE parent = '$parent_id'";
+									$cquery = $db->query($sql2);
+									?>
+								<li><a href="#"><?php echo $parent['nm_kategori'] ?>
+									<ul>
+										<?php while($child = mysqli_fetch_assoc($cquery)): ?>
+										<li><a href=""><?php echo $parent['nm_kategori'] ?></a></li>
+										<?php endwhile; ?>
 									</ul>
 								</li>
-								<li class=""><a href="shop.html">Fashion Pria</a>
-									<ul class="">
-										<li><a href="#">Bages</a>
-											<ul>
-												<li><a href="#">Bootes Bages</a></li>														
-												<li><a href="#">Blazers</a></li>
-												<li><a href="#">Mermaid</a></li>
-											</ul>
-										</li>
-										<li><a href="#">Clothing</a>
-											<ul>
-												<li><a href="#">coats</a></li>														
-												<li><a href="#">T-shirt</a></li>
-											</ul>
-										</li>
-										<li><a href="#">lingerie</a>
-											<ul>
-												<li><a href="#">brands</a></li>														
-												<li><a href="#">furniture</a></li>
-											</ul>
-										</li>
-									</ul>
-								</li>
-								<li><a href="shop.html">Handbags</a>
-									<ul class="">
-										<li><a href="#">Footwear Man</a>
-											<ul>
-												<li><a href="#">Gold Rigng</a></li>														
-												<li><a href="#">paltinum Rings</a></li>
-												<li><a href="#">Silver Ring</a></li>
-												<li><a href="#">Tungsten Ring</a></li>
-											</ul>	
-										</li>
-										<li><a href="#">Footwear Womens</a>
-											<ul>
-												<li><a href="#">Brand Gold</a></li>														
-												<li><a href="#">paltinum Rings</a></li>
-												<li><a href="#">Silver Ring</a></li>
-												<li><a href="#">Tungsten Ring</a></li>
-											</ul>	
-										</li>
-										<li><a href="#">Band</a>
-											<ul>
-												<li><a href="#">Platinum Necklaces</a></li>														
-												<li><a href="#">Gold Ring</a></li>
-												<li><a href="#">silver ring</a></li>
-												<li><a href="#">Diamond Bracelets</a></li>
-											</ul>	
-										</li>	
-									</ul>
-								</li>
-								<li><a href="shop.html">Makanan</a>
-									<ul class="">
-										<li><a href="#">Rings</a>
-											<ul>
-												<li><a href="#">Coats & jackets</a></li>														
-												<li><a href="#">blazers</a></li>
-												<li><a href="#">raincoats</a></li>
-											</ul>	
-										</li>
-										<li><a href="#">Dresses</a>
-											<ul>
-												<li><a href="#">footwear</a></li>														
-												<li><a href="#">blazers</a></li>
-												<li><a href="#">clog sandals</a></li>
-												<li><a href="#">combat boots</a></li>
-											</ul>	
-										</li>
-										<li><a href="#">Accessories</a>
-											<ul>
-												<li><a href="#">bootees Bags</a></li>														
-												<li><a href="#">blazers</a></li>
-												<li><a href="#">jackets</a></li>
-												<li><a href="#">kids</a></li>
-												<li><a href="#">shoes</a></li>
-											</ul>	
-										</li>
-										<li><a href="#">Top</a>
-											<ul>
-												<li><a href="#">briefs</a></li>														
-												<li><a href="#">camis</a></li>
-												<li><a href="#">nigthwear</a></li>
-												<li><a href="#">kids</a></li>
-												<li><a href="#">shapewer</a></li>
-											</ul>	
-										</li>
-									</ul>
-								</li>
+								<?php endwhile; ?>
+
 								<li class=""><a href="">Pages</a>
 									<ul class="">
 										<li><a href="blog.html">Blog</a></li>

@@ -861,6 +861,12 @@ i.nivo-next-icon{}
 ----------------------------------------*/
 .single-product{
 	overflow:hidden;
+
+	/*custom*/
+	margin-top: 20px;
+	padding: 5px;
+	border: 1px solid #eee;
+
 }
 .single-product-area .col-md-3{
 	width:100%;
@@ -950,7 +956,7 @@ h2.product-title a{
 	color: #696969;
 }
 p.product-price{
-	color: #3c78d8;
+	color: #4e4a4a;
 	font-family: Montserrat;
 	font-size: 18px;
 	margin: 10px 0 5px;
@@ -1028,14 +1034,14 @@ p.product-price span{
 h2.product-title a:hover{
 	color:#3c78d8; 
 
-	/*costom*/
-	font-size: larger;
+	/*custom*/
+	text-decoration: underline;
 }
 .single-product .action-button button:hover{
-	background: #eeb742 none repeat scroll 0 0;
+	background: #3c78d8 none repeat scroll 0 0;
 	color: #fff;
-	font-size: 0;
-	padding: 12px 40px;
+	/*font-size: 0;
+	padding: 12px 40px;*/
 }
 .single-product .action-view button:hover{
 	color: #3c78d8;
@@ -4305,7 +4311,5 @@ width: 100%;}
 
 /*custom*/
 .single-product:hover {
-
-	border: 1px solid #c6c6c6;
-	box-shadow: 2px 2px 4px rgba(0,0,0,.13);
+	box-shadow: 2px 2px 8px rgba(0,0,0,.35);
 }

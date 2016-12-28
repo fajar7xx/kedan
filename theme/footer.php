@@ -1,3 +1,9 @@
+<?php  
+// $sql = "SELECT * FROM brand WHERE id_brand >= 1";
+// $brand_query = $db->query($sql);
+// echo $brand_query; 
+?>	
+
 			<!-- Brand Logo area -->
 			<div class="brand-logo-area">
 				<div class="container">
@@ -135,7 +141,7 @@
 							<div class="modal-product">
 								<div class="product-images">
 									<div class="main-image images">
-										<img alt="product" src="/img/product/pawica.jpg">
+										<img alt="product" src="<?php echo $product['image']; ?>">
 									</div>
 								</div><!-- .product-images -->
 								
