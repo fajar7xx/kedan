@@ -1,6 +1,4 @@
 <?php
-
-//akses db
 require_once '../includes/koneksi.php';
 
 // include template
@@ -41,7 +39,7 @@ if(isset($_POST['add_submit'])){
 	}
 
 	// check if brand exist in database
-	$sql = "SELECT * FROM brand WHERE brand = '$brand' AND ";
+	$sql = "SELECT * FROM brand WHERE brand = '$brand'";
 	if(isset($_GET['edit'])){
 		$sql = "SELECT * FROM brand WHERE brand = '$brand' AND id_brand != '$edit_id'";
 	}
@@ -66,7 +64,6 @@ if(isset($_POST['add_submit'])){
 	}
 }
 ?>
-
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
 	<!-- Content Header (Page header) -->
@@ -90,9 +87,9 @@ if(isset($_POST['add_submit'])){
 			</div>
 			<!-- /.box-header -->
 			<!-- form start -->
-			<form role="form" action="brand.php<?=((isset($_GET['edit']))?'?edit='.$edit_id:'');?>" method="post">
+			<form action="brand.php<?=((isset($_GET['edit']))?'?edit='.$edit_id:'');?>" method="post">
 				<div class="box-body">
-					<?php 
+					<?php
 					$brand_value = '';
 					if(isset($_GET['edit'])){
 						$brand_value = $eBrand['brand'];
@@ -110,10 +107,10 @@ if(isset($_POST['add_submit'])){
 				</div>
 				<!-- /.box-body -->
 				<div class="box-footer">
+					<input type="submit" name="add_submit" value="<?=((isset($_GET['edit']))?'Ubah':'Tambah') ;?> Brand" class="btn btn-primary">
 					<?php if(isset($_GET['edit'])): ?>
-						<a href="brand.php" class="btn btn-danger">Cancel</a>
+					<a href="brand.php" class="btn btn-danger">Batal</a>
 					<?php endif; ?>
-					<input type="submit" name="add_submit" value="<?=((isset($_GET['edit']))?'Edit':'Add') ;?> Brand" class="btn btn-primary">
 				</div>
 			</form>
 		</div>
@@ -138,7 +135,7 @@ if(isset($_POST['add_submit'])){
 								<td class="text-center"><i class="fa fa-square-o"></i></td>
 								<td><?php echo $brand['brand']; ?></td>
 								<td class="text-center"><a href="brand.php?edit=<?=$brand['id_brand']; ?>" class="btn tbn-xs btn-primary"><i class="fa fa-pencil"></i></a></td>
-								<td class="text-center"><a href="brand.php?delete=<?=$brand['id_brand']; ?>" class="btn tbn-xs btn-danger"><i class="fa fa-trash-o"></i></a></td>	
+								<td class="text-center"><a href="brand.php?delete=<?=$brand['id_brand']; ?>" class="btn tbn-xs btn-danger"><i class="fa fa-trash-o"></i></a></td>
 							</tr>
 							<?php endwhile; ?>
 						</table>
@@ -152,7 +149,6 @@ if(isset($_POST['add_submit'])){
 	<!-- /.content -->
 </div>
 <!-- /.content-wrapper -->
-
 <?php
 include 'includes/footer.php';
 ?>

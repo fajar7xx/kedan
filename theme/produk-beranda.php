@@ -29,7 +29,7 @@ $featured = $db->query($sql);
 												</div>
 												<div class="single-product-content">
 													<div class="product-content-head">
-														<h2 class="product-title"><a href="#"><?php echo $product['judul']; ?></a></h2>
+														<h2 class="product-title"><a href="#"><?php echo $product['nm_produk']; ?></a></h2>
 														<p class="product-price"><?php echo  rupiah($product['harga']) ; ?></p>
 													</div>
 													<div class="product-bottom-action">

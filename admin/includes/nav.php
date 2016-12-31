@@ -46,8 +46,8 @@
           </a>
           <ul class="treeview-menu">
             <li><a href="brand.php">Brand</a></li>
-            <li><a href="#">Kategori</a></li>
-            <li><a href="#">Produk</a></li>
+            <li><a href="kategori.php">Kategori</a></li>
+            <li><a href="produk.php">Produk</a></li>
           </ul>
         </li>
       </ul>
