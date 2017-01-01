@@ -11,6 +11,8 @@ include 'includes/header.php';
 include 'includes/nav.php';
 
 if(isset($_GET['add'])){
+	$brandQuery = $db->query("SELECT * FROM brand ORDER BY brand");
+	$parentQuery = $db->query("SELECT * FROM kategori WHERE parent = 0 ORDER BY nm_kategori");
 ?>
 	
 	<!-- Content Wrapper. Contains page content -->
@@ -26,7 +28,56 @@ if(isset($_GET['add'])){
   		<!-- Main content -->
   		<section class="content">
     		<!-- Your Page Content Here -->
-
+    		<!-- Horizontal Form -->
+          	<div class="box box-info">
+            	<div class="box-header with-border">
+             	 	<h3 class="box-title">Tambah Produk</h3>
+            	</div>
+            	<!-- /.box-header -->
+            	<!-- form start -->
+            	<form action="produk.php?add=1" method="post" enctype="multipart/form-data">
+           		   	<div class="box-body">	
+	            		<div class="form-group col-md-6">
+	            			<label for="nama_produk">Nama Produk*:</label>
+	            			<input type="text" class="form-control" name="nama_produk" id="nama_produk" value="<?=((isset($_POST['nama_produk']))?sanitize($_POST['nama_produk']):'');?>">
+	            		</div>
+	            		<div class="form-group col-md-6">
+	            			<label for="brand">Brand*:</label>
+							<select class="form-control select2" id="brand" name="brand">
+								<option value="" <?=((isset($_POST['brand']) && $_POST['brand'] == '')?'selected':'');?>> &nbsp; </option>
+								<?php while($brand = mysqli_fetch_assoc($brandQuery)): ?>
+									<option value="<?=$brand['id_brand']; ?>" <?=((isset($_POST['brand']) && $_POST['brand'] == $brand['id_brand'] )?'selected':'');?> ><?=$brand['brand'];?></option>
+								<?php endwhile; ?>
+							</select>
+	            		</div>
+	            		<div class="form-group col-md-6">
+	            			<label for="parent">Parent Kategori*:</label>
+	            			<select class="form-control select2" id="parent" name="parent">
+	            				<option value=""<?=((isset($_POST['parent']) && $_POST['parent'] == '')?'selected':'');?>> &nbsp; </option>
+								<?php while($parent = mysqli_fetch_assoc($parentQuery)): ?>
+									<option value="<?=$parent['id_kategori'];?>"<?=((isset($_POST['parent']) && $_POST['parent'] == $parent['id_kategori'])?'selected':'');?>><?=$parent['nm_kategori'];?></option>
+								<?php endwhile; ?>
+	            			</select> 
+	            		</div>
+	            		<div class="form-group col-md-6">
+	            			<label for="child">Child Kategori*:</label>
+	            			<select name="child" id="child" class="form-control">
+	            				<!-- <option value=""></option>
+	            				<option value=""></option> -->
+	            			</select>
+	            		</div>
+              		</div>
+              		<!-- /.box-body -->
+              		<div class="box-footer">
+              			<div class="pull-right">
+	            			<button type="submit" class="btn btn-primary">Simpan</button> &nbsp;
+               			 	<a href="produk.php" class="btn btn-danger">Batal</a>
+               			</div>
+             		 </div>
+              		<!-- /.box-footer -->
+            	</form>
+          </div>
+          <!-- /.box -->
   		</section>
  		 <!-- /.content -->
 	</div>
@@ -69,7 +120,7 @@ else{
 	           		 	<div class="box-header">
 	             		 	<h3 class="box-title">Daftar Produk</h3>
 	              			<div class="box-tools">
-	                			<a href="produk.php?add=1" class="btn btn-md btn-primary">Tambah Produk</a>
+	                			<a href="produk.php?add=1" class="btn btn-md btn-primary"><i class="fa fa-plus-circle"></i>&nbsp; Tambah Produk</a>
 	                			<div class="clearfix"></div>
 	        	      		</div>
 	            		</div><br>

@@ -93,8 +93,34 @@
 <script src="src/plugins/jQuery/jquery-2.2.3.min.js"></script>
 <!-- Bootstrap 3.3.6 -->
 <script src="src/bootstrap/js/bootstrap.min.js"></script>
+<!-- Select2 -->
+<script src="src/plugins/select2/select2.full.min.js"></script>
 <!-- AdminLTE App -->
 <script src="src/dist/js/app.min.js"></script>
+<!-- page script -->
+<script>
+  // element2 form
+  $(function () {
+    //Initialize Select2 Elements
+    $(".select2").select2();
+  });
+</script>
+<script>
+  // get child
+  function get_child_options(){
+    var parentID = JQuery('#parent').val();
+    JQuery.ajax({
+      url: '/kedan/admin/parsers/child_kategori.php',
+      type: 'POST',
+      data: {parentID : parentID},
+      success: function(data){
+        JQuery('#child').html(data);
+      },
+      error: function(){alert("Something wnet wrong with the child option.")},
+    });
+  }
+  JQuery('select[name="parent"]').change(get_child_options);
+</script>
 
 <!-- Optionally, you can add Slimscroll and FastClick plugins.
      Both of these plugins are recommended to enhance the
