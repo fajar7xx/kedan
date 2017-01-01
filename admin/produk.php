@@ -62,15 +62,39 @@ if(isset($_GET['add'])){
 	            		<div class="form-group col-md-6">
 	            			<label for="child">Child Kategori*:</label>
 	            			<select name="child" id="child" class="form-control">
-	            				<!-- <option value=""></option>
-	            				<option value=""></option> -->
 	            			</select>
+	            		</div>
+	            		<div class="form-group col-md-6">
+	            			<label for="harga">Harga*:</label>
+	            			<input type="text" id="harga" name="harga" class="form-control" value="<?=((isset($_POST['harga']))?sanitize($_POST['harga']):'');?>">
+	            		</div>
+	            		<div class="form-group col-md-6">
+	            			<label for="list_harga">List Harga*:</label>
+	            			<input type="text" id="list_harga" name="list_harga" class="form-control" value="<?=((isset($_POST['list_harga']))?sanitize($_POST['list_harga']):'');?>">
+	            		</div>
+	            		<div class="form-group col-md-6">
+	            			<label>Kuantitas & Ukuran *:</label>
+	            			<button class="btn btn-default form-control" onclick="jQuery('#sizeModal').modal('toggle');return false;">Kuantitas & Ukuran</button>
+	            		</div>
+	            		<div class="form-group col-md-6">
+	            			<label for="ukuran">Ukuran & Jumlah</label>
+	            			<input type="text" name="ukuran"  id="ukuran" class="form-control" value="<?=((isset($_POST['ukuran']))?$_POST['ukuran']:'');?>" readonly>
+	            		</div>
+	            		<div class="form-group col-md-6">
+	            			<label for="photo">Photo Produk</label>
+	            			<input type="file" name="photo" id="photo" class="form-control">
+	            		</div>
+	            		<div class="form-group col-md-6">
+	            			<label for="deskripsi">Produk Deskripsi</label>
+	            			<textarea id="deskripsi" name="deskripsi" class="form-control" rows="6">
+	            				<?=((isset($_POST['deskripsi']))?sanitize($_POST['deskripsi']):'');?>
+	            			</textarea>
 	            		</div>
               		</div>
               		<!-- /.box-body -->
               		<div class="box-footer">
               			<div class="pull-right">
-	            			<button type="submit" class="btn btn-primary">Simpan</button> &nbsp;
+              				<input type="submit" class="btn btn-primary" value="Tambah Produk">&nbsp;
                			 	<a href="produk.php" class="btn btn-danger">Batal</a>
                			</div>
              		 </div>

@@ -108,18 +108,18 @@
 <script>
   // get child
   function get_child_options(){
-    var parentID = JQuery('#parent').val();
-    JQuery.ajax({
+    var parentID = jQuery('#parent').val();
+    jQuery.ajax({
       url: '/kedan/admin/parsers/child_kategori.php',
       type: 'POST',
       data: {parentID : parentID},
       success: function(data){
-        JQuery('#child').html(data);
+        jQuery('#child').html(data);
       },
       error: function(){alert("Something wnet wrong with the child option.")},
     });
   }
-  JQuery('select[name="parent"]').change(get_child_options);
+  jQuery('select[name="parent"]').change(get_child_options);
 </script>
 
 <!-- Optionally, you can add Slimscroll and FastClick plugins.
