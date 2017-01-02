@@ -106,6 +106,17 @@
   });
 </script>
 <script>
+  //modal for ukuran dan jumlah
+  function updateSizes(){
+    var ukuranString = '';
+    for( var i=1; i<=12; i++){
+      if(jQuery('#ukuran'+i).val()!== ''){
+        ukuranString += jQuery('#ukuran'+i).val()+':'+jQuery('#jumlah'+i).val()+',';
+      }
+    }
+    jQuery('#ukuran').val(ukuranString);
+  }
+
   // get child
   function get_child_options(){
     var parentID = jQuery('#parent').val();
@@ -116,7 +127,7 @@
       success: function(data){
         jQuery('#child').html(data);
       },
-      error: function(){alert("Something wnet wrong with the child option.")},
+      error: function(){alert("Something went wrong with the child option.");},
     });
   }
   jQuery('select[name="parent"]').change(get_child_options);

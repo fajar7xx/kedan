@@ -58,7 +58,7 @@
         <link rel="stylesheet" href="theme/css/responsive.css">
         <!-- custom CSS
 		============================================ -->
-		<link rel="stylesheet"  href="theme/css/custom.css">
+		<!-- <link rel="stylesheet"  href="theme/css/custom.css"> -->
 		<!-- modernizr JS
 		============================================ -->		
         <script src="theme/js/vendor/modernizr-2.8.3.min.js"></script>

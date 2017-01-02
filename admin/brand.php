@@ -130,9 +130,9 @@ if(isset($_POST['add_submit'])){
 								<th class="text-center">Edit</th>
 								<th class="text-center">Delete</th>
 							</tr>
-							<?php while($brand = mysqli_fetch_assoc($result)) : ?>
+							<?php $no=1; while($brand = mysqli_fetch_assoc($result)) : ?>
 							<tr>
-								<td class="text-center"><i class="fa fa-square-o"></i></td>
+								<td class="text-center"><?= $no; $no++;?></td>
 								<td><?php echo $brand['brand']; ?></td>
 								<td class="text-center"><a href="brand.php?edit=<?=$brand['id_brand']; ?>" class="btn tbn-xs btn-primary"><i class="fa fa-pencil"></i></a></td>
 								<td class="text-center"><a href="brand.php?delete=<?=$brand['id_brand']; ?>" class="btn tbn-xs btn-danger"><i class="fa fa-trash-o"></i></a></td>

@@ -1,7 +1,12 @@
 <?php  
 // $sql = "SELECT * FROM brand WHERE id_brand >= 1";
 // $brand_query = $db->query($sql);
-// echo $brand_query; 
+// echo $brand_query;
+// 
+//  get produk
+$sql = "SELECT * FROM produk WHERE deleted = 0";
+$modalQuery = $db->query($sql); 
+$produk = mysqli_fetch_assoc($modalQuery);
 ?>	
 
 			<!-- Brand Logo area -->
@@ -161,7 +166,7 @@
 													<input type="text" name="qty" id="qty" maxlength="12" value="1" title="Qty" class="input-text qty">
 													<input type="button" value="+" onclick="var qty_el = document.getElementById('qty'); var qty = qty_el.value; if( !isNaN( qty )) qty_el.value++;return false;" class="qty-increase">
 												</div>
-												<button class="btn" type="button"><span>Add to cart</span></button>
+												<button class="btn" type="button"><span>Beli Sekarang</span></button>
 											</div>
 										</div>
 										</form>
