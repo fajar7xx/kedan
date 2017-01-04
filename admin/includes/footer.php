@@ -118,19 +118,24 @@
   }
 
   // get child
-  function get_child_options(){
+  function get_child_options(selected){
+    if(typeof selected === 'undefined'){
+      var selected = '';
+    }
     var parentID = jQuery('#parent').val();
     jQuery.ajax({
       url: '/kedan/admin/parsers/child_kategori.php',
       type: 'POST',
-      data: {parentID : parentID},
+      data: {parentID : parentID, selected: selected},
       success: function(data){
         jQuery('#child').html(data);
       },
       error: function(){alert("Something went wrong with the child option.");},
     });
   }
-  jQuery('select[name="parent"]').change(get_child_options);
+  jQuery('select[name="parent"]').change(function(){
+    get_child_options();
+  });
 </script>
 
 <!-- Optionally, you can add Slimscroll and FastClick plugins.

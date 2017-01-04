@@ -10,32 +10,49 @@ include 'includes/head.php';
 include 'includes/header.php';
 include 'includes/nav.php';
 
+$pathDb = '';
 if(isset($_GET['add']) || isset($_GET['edit'])){
 	$brandQuery = $db->query("SELECT * FROM brand ORDER BY brand");
 	$parentQuery = $db->query("SELECT * FROM kategori WHERE parent = 0 ORDER BY nm_kategori");
-	$ukuranArray = array();
 	$nama_produk = ((isset($_POST['nama_produk']) && $_POST['nama_produk'] != '')?sanitize($_POST['nama_produk']):'');
 	$brand = ((isset($_POST['brand']) && !empty($_POST['brand']))?sanitize($_POST['brand']):'');
+	$parent = ((isset($_POST['parent']) && !empty($_POST['parent']))?sanitize($_POST['parent']):'');
+	$kategoriCat = ((isset($_POST['child']) && !empty($_POST['child']))?sanitize($_POST['child']):'');
+	$harga = ((isset($_POST['harga']) && $_POST['harga'] != '')?sanitize($_POST['harga']):'');
+	$list_harga = ((isset($_POST['list_harga']) && $_POST['list_harga'] != '')?sanitize($_POST['list_harga']):'');
+	$deskripsi = ((isset($_POST['deskripsi']) && $_POST['deskripsi'] != '')?sanitize($_POST['deskripsi']):'');
+	$ukuran = ((isset($_POST['ukuran']) && $_POST['ukuran'] != '')?sanitize($_POST['ukuran']):'');
+	$ukuran = rtrim($ukuran,',');
+	$simpan_gambar = '';
+	// $ukuranArray = array();
+
 	if(isset($_GET['edit'])){
 		$edit_id=(int)$_GET['edit'];
 		$produkResult = $db->query("SELECT * FROM produk WHERE id_produk = '$edit_id'");
 		$produk = mysqli_fetch_assoc($produkResult);
-		$nama_produk = ((isset($_POST['nama_produk']) && !empty($_POST['nama_produk']))?sanitize($_POST['nama_produk']):$produk['nm_produk']);
-		$brand = ((isset($_POST['brand']) && !empty($_POST['brand']))?sanitize($_POST['brand']):$produk['brand ']);
+		if(isset($_GET['hapus_gambar'])){
+			$gambar_url = $_SERVER['DOCUMENT_ROOT'].$produk['image'];
+			echo $gambar_url;
+			unlink($gambar_url);
+			$db->query("UPDATE produk SET image ='' WHERE id_produk='$edit_id'");
+			header('Location: produk.php?edit='.$edit_id);
+		}
+		$kategoriCat = ((isset($_POST['child']) && $_POST['child'] != '')?sanitize($_POST['child']):$produk['produk_kategori']);
+		$nama_produk = ((isset($_POST['nama_produk']) && $_POST['nama_produk'] != '')?sanitize($_POST['nama_produk']):$produk['nm_produk']);
+		$brand = ((isset($_POST['brand']) && $_POST['brand'] != '')?sanitize($_POST['brand']):$produk['brand']);
+		$parentQuery1=$db->query("SELECT * FROM kategori WHERE id_kategori ='$kategoriCat'");
+		$parentResult = mysqli_fetch_assoc($parentQuery1);
+		$parent = ((isset($_POST['parent']) && $_POST['parent'] != '')?sanitize($_POST['parent']):$parentResult['parent']);
+		$harga = ((isset($_POST['harga']) && $_POST['harga'] != '')?sanitize($_POST['harga']):$produk['harga']);
+		$list_harga = ((isset($_POST['list_harga']) && $_POST['list_harga'] != '')?sanitize($_POST['list_harga']):$produk['list_harga']);
+		$deskripsi = ((isset($_POST['deskripsi']) && $_POST['deskripsi'] != '')?sanitize($_POST['deskripsi']):$produk['deskripsi']);
+		$ukuran = ((isset($_POST['ukuran']) && $_POST['ukuran'] != '')?sanitize($_POST['ukuran']):$produk['ukuran']);
+		$ukuran = rtrim($ukuran,',');
+		$simpan_gambar = (($produk['image'] != '')?$produk['image']:'');
+		$pathDb = $simpan_gambar;
 	}
-	if($_POST){
-		// sterilkan dari atribut gila html 
-		
-		$kategori = sanitize($_POST['child']);
-		$harga = sanitize($_POST['harga']);
-		$list_harga = sanitize($_POST['list_harga']);
-		$ukuran = sanitize($_POST['ukuran']);
-		$deskripsi = sanitize($_POST['deskripsi']);
-		$pathDb = '';
-
-		$errors = array();
-		if(!empty($_POST['ukuran'])){
-			$ukuranString = sanitize($_POST['ukuran']);
+	if(!empty($ukuran)){
+			$ukuranString = sanitize($ukuran);
 			$ukuranString = rtrim($ukuranString,',');
 			// echo  $ukuranString;
 			$ukuranArray = explode(',',$ukuranString);
@@ -50,6 +67,15 @@ if(isset($_GET['add']) || isset($_GET['edit'])){
 		else{
 			$ukuranArray = array();
 		}
+	if($_POST){
+		// sterilkan dari atribut gila html 
+		// $kategori = sanitize($_POST['child']);
+		// $harga = sanitize($_POST['harga']);
+		// $list_harga = sanitize($_POST['list_harga']);
+		// $ukuran = sanitize($_POST['ukuran']);
+		// $deskripsi = sanitize($_POST['deskripsi']);
+		$pathDb = '';
+		$errors = array();
 		$wajib = array('nama_produk','brand','parent','child','harga','ukuran');
 		foreach($wajib as $field){
 			if($_POST[$field] == ''){
@@ -94,7 +120,10 @@ if(isset($_GET['add']) || isset($_GET['edit'])){
 		else{
 			//upload file and insert into database
 			move_uploaded_file($tmpLok,$lokasiUploadPath);
-			$masukkanSql = "INSERT INTO produk (`nm_produk`,`harga`,`list_harga`,`brand`,`produk_kategori`,`ukuran`,`image`,`deskripsi`) VALUES ('$nama_produk','$harga','$list_harga','$brand','$kategori','$ukuran','$pathDb','$deskripsi')";
+			$masukkanSql = "INSERT INTO produk (`nm_produk`,`harga`,`list_harga`,`brand`,`produk_kategori`,`ukuran`,`image`,`deskripsi`) VALUES ('$nama_produk','$harga','$list_harga','$brand','$kategoriCat','$ukuran','$pathDb','$deskripsi')";
+			if(isset($_GET['edit'])){
+				$masukkanSql = "UPDATE produk SET nm_produk = '$nama_produk', harga='$harga', list_harga='$list_harga', brand='$brand', produk_kategori='$kategoriCat', ukuran='$ukuran', image='$pathDb' deskripsi='$deskripsi' WHERE id_produk='$edit_id'";
+			}
 			$db->query($masukkanSql);
 			header('Location: produk.php');
 		}
@@ -130,18 +159,18 @@ if(isset($_GET['add']) || isset($_GET['edit'])){
 	            		<div class="form-group col-md-6">
 	            			<label for="brand">Brand*:</label>
 							<select class="form-control select2" id="brand" name="brand">
-								<option value="" <?=(($brand == '')?'selected':'');?>> &nbsp; </option>
-								<?php while($b = mysqli_fetch_assoc($brandQuery)): ?>
-									<option value="<?=$brand['id_brand']; ?>" <?=(($brand == $b['id_brand'] )?'selected':'');?> ><?=$b['brand'];?></option>
+								<option value="" <?=(($brand == '')?'selected':'');?>></option>
+								<?php while($brandB = mysqli_fetch_assoc($brandQuery)): ?>
+									<option value="<?=$brandB['id_brand']; ?>" <?=(($brand == $brandB['id_brand'])?' selected':'');?>><?=$brandB['brand'];?></option>
 								<?php endwhile; ?>
 							</select>
 	            		</div>
 	            		<div class="form-group col-md-6">
 	            			<label for="parent">Parent Kategori*:</label>
 	            			<select class="form-control select2" id="parent" name="parent">
-	            				<option value=""<?=((isset($_POST['parent']) && $_POST['parent'] == '')?'selected':'');?>> &nbsp; </option>
-								<?php while($parent = mysqli_fetch_assoc($parentQuery)): ?>
-									<option value="<?=$parent['id_kategori'];?>"<?=((isset($_POST['parent']) && $_POST['parent'] == $parent['id_kategori'])?'selected':'');?>><?=$parent['nm_kategori'];?></option>
+	            				<option value=""<?=(($parent == '')?'selected':'');?>></option>
+								<?php while($parentP = mysqli_fetch_assoc($parentQuery)): ?>
+									<option value="<?=$parentP['id_kategori'];?>"<?=(($parent == $parentP['id_kategori'])?'selected':'');?>><?=$parentP['nm_kategori'];?></option>
 								<?php endwhile; ?>
 	            			</select> 
 	            		</div>
@@ -152,29 +181,34 @@ if(isset($_GET['add']) || isset($_GET['edit'])){
 	            		</div>
 	            		<div class="form-group col-md-6">
 	            			<label for="harga">Harga*:</label>
-	            			<input type="text" id="harga" name="harga" class="form-control" value="<?=((isset($_POST['harga']))?sanitize($_POST['harga']):'');?>" onkeydown="return numbersonly(this, event);" onkeyup="javascript:tandaPemisahTitik(this);">
+	            			<input type="text" id="harga" name="harga" class="form-control" value="<?=$harga;?>">
 	            		</div>
 	            		<div class="form-group col-md-6">
 	            			<label for="list_harga">List Harga:</label>
-	            			<input type="text" id="list_harga" name="list_harga" class="form-control" value="<?=((isset($_POST['list_harga']))?sanitize($_POST['list_harga']):'');?>" onkeydown="return numbersonly(this, event);" onkeyup="javascript:tandaPemisahTitik(this);">
+	            			<input type="text" id="list_harga" name="list_harga" class="form-control" value="<?=$list_harga;?>">
 	            		</div>
 	            		<div class="form-group col-md-6">
-	            			<label>Kuantitas & Ukuran *:</label>
+	            			<label>Ukuran & Jumlah *:</label>
 	            			<button class="btn btn-default form-control" onclick="jQuery('#sizeModal').modal('toggle');return false;">Kuantitas & Ukuran</button>
 	            		</div>
 	            		<div class="form-group col-md-6">
 	            			<label for="ukuran">Ukuran & Jumlah</label>
-	            			<input type="text" name="ukuran"  id="ukuran" class="form-control" value="<?=((isset($_POST['ukuran']))?$_POST['ukuran']:'');?>" readonly>
+	            			<input type="text" name="ukuran"  id="ukuran" class="form-control" value="<?=$ukuran;?>" readonly>
 	            		</div>
 	            		<div class="form-group col-md-6">
-	            			<label for="photo">Photo Produk</label>
-	            			<input type="file" name="photo" id="photo" class="form-control">
+	            			<?php if($simpan_gambar != ''): ?>
+								<div class="save-image attachment-block clearfix">
+									<img src="<?=$simpan_gambar;?>" alt="simpan gambar" class="img-responsive pad"><br>
+									<a href="produk.php?hapus_gambar=1&edit=<?=$edit_id;?>" class=" btn btn-danger pull-right">Hapus Gambar</a>
+								</div>
+	            			<?php else: ?>
+		            			<label for="photo">Photo Produk</label>
+		            			<input type="file" name="photo" id="photo" class="form-control">
+	            			<?php endif; ?>
 	            		</div>
 	            		<div class="form-group col-md-6">
 	            			<label for="deskripsi">Produk Deskripsi</label>
-	            			<textarea id="deskripsi" name="deskripsi" class="form-control" rows="6">
-	            				<?=((isset($_POST['deskripsi']))?sanitize($_POST['deskripsi']):'');?>
-	            			</textarea>
+	            			<textarea id="deskripsi" name="deskripsi" class="form-control" rows="6"><?=$deskripsi;?></textarea>
 	            		</div>
               		</div>
               		<!-- /.box-body -->
@@ -212,7 +246,7 @@ if(isset($_GET['add']) || isset($_GET['edit'])){
 									</div>
 								</div>
 								<div class="modal-footer">
-									<button type="button" class="btn btn-warning" data-dismiss="modal">Tutup</button>
+									<button type="button" class="btn btn-danger" data-dismiss="modal">Batal</button>
 									<button type="button" class="btn btn-primary" onclick="updateSizes();jQuery('#sizeModal').modal('toggle'); return false;">Simpan</button>
 								</div>
 							</div>
@@ -336,3 +370,9 @@ else{
 // include template
 include 'includes/footer.php';
 ?>
+
+<script>
+	jQuery(document).ready(function() {
+		get_child_options('<?=$kategoriCat;?>');
+	});
+</script>

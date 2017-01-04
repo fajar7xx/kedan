@@ -7,4 +7,7 @@ kedan id marketplacey ang mgnkhususkan pada sektor umkm khususnya pada sumatera 
 ui/ux nya harus mengandung khasnya sumatera utara ni......"# PKTI_KEDAN" 
 
 
-buyar
+tambahan
+jika setelah masukkan kedan.sql juga masih terdapat error coba samakan nama database sama tidak dengan file koneksi.php yang berada pada direktori /includes/koneksi.php
+
+semoga membantu
