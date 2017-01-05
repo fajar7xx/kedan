@@ -57,4 +57,4 @@ scratch. This page gets rid of all links and provides the needed markup only.
   |               | sidebar-mini                            |
   |---------------------------------------------------------|
   -->
-  <body class="hold-transition skin-yellow  sidebar-mini">
+  <body class="hold-transition skin-blue-light  sidebar-mini">

@@ -143,13 +143,12 @@ if(isset($_GET['add']) || isset($_GET['edit'])){
   		<!-- Main content -->
   		<section class="content">
     		<!-- Your Page Content Here -->
-    		<!-- Horizontal Form -->
+    		<!--  Form -->
           	<div class="box box-info">
             	<div class="box-header with-border">
              	 	<h3 class="box-title"><?=((isset($_GET['edit'])))?'Edit':'Tambah'?> Produk</h3>
             	</div>
             	<!-- /.box-header -->
-            	<!-- form start -->
             	<form action="produk.php?<?=((isset($_GET['edit']))?'edit='.$edit_id:'add=1');?>" method="post" enctype="multipart/form-data">
            		   	<div class="box-body">	
 	            		<div class="form-group col-md-6">
