@@ -2,6 +2,10 @@
 // require database
 require_once $_SERVER['DOCUMENT_ROOT'].'/kedan/includes/koneksi.php';
 
+if(!is_logged_in()) {
+	login_error_redirect();
+}
+
 // require rupiah file
 require_once $_SERVER['DOCUMENT_ROOT'].'/kedan/includes/rupiah.php';
 
@@ -9,6 +13,13 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/kedan/includes/rupiah.php';
 include 'includes/head.php';
 include 'includes/header.php';
 include 'includes/nav.php';
+
+// delete produk
+if(isset($_GET['delete'])){
+	$id_delete = sanitize($_GET['delete']);
+	$db->query("UPDATE produk SET deleted = 1 WHERE id_produk ='$id_delete'");
+	header('Location : produk.php');
+}
 
 $pathDb = '';
 if(isset($_GET['add']) || isset($_GET['edit'])){
@@ -74,7 +85,7 @@ if(isset($_GET['add']) || isset($_GET['edit'])){
 		// $list_harga = sanitize($_POST['list_harga']);
 		// $ukuran = sanitize($_POST['ukuran']);
 		// $deskripsi = sanitize($_POST['deskripsi']);
-		$pathDb = '';
+		// $pathDb = '';
 		$errors = array();
 		$wajib = array('nama_produk','brand','parent','child','harga','ukuran');
 		foreach($wajib as $field){
@@ -119,10 +130,12 @@ if(isset($_GET['add']) || isset($_GET['edit'])){
 		}
 		else{
 			//upload file and insert into database
-			move_uploaded_file($tmpLok,$lokasiUploadPath);
+			if(!empty($_FILES)){
+				move_uploaded_file($tmpLok,$lokasiUploadPath);
+			}
 			$masukkanSql = "INSERT INTO produk (`nm_produk`,`harga`,`list_harga`,`brand`,`produk_kategori`,`ukuran`,`image`,`deskripsi`) VALUES ('$nama_produk','$harga','$list_harga','$brand','$kategoriCat','$ukuran','$pathDb','$deskripsi')";
 			if(isset($_GET['edit'])){
-				$masukkanSql = "UPDATE produk SET nm_produk = '$nama_produk', harga='$harga', list_harga='$list_harga', brand='$brand', produk_kategori='$kategoriCat', ukuran='$ukuran', image='$pathDb' deskripsi='$deskripsi' WHERE id_produk='$edit_id'";
+				$masukkanSql = "UPDATE produk SET nm_produk = '$nama_produk', harga = '$harga', list_harga = '$list_harga', brand = '$brand', produk_kategori = '$kategoriCat', ukuran = '$ukuran', image = '$pathDb' deskripsi = '$deskripsi' WHERE id_produk = '$edit_id'";
 			}
 			$db->query($masukkanSql);
 			header('Location: produk.php');

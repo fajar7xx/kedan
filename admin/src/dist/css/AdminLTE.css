@@ -3246,6 +3246,9 @@ table.text-center th {
   padding: 20px;
   border-top: 0;
   color: #666;
+
+  /*custom*/
+  border: 1px rgba(102, 102, 102, 0.27) solid;
 }
 .login-box-body .form-control-feedback,
 .register-box-body .form-control-feedback {
