@@ -10,4 +10,8 @@ ui/ux nya harus mengandung khasnya sumatera utara ni......"# PKTI_KEDAN"
 tambahan
 jika setelah masukkan kedan.sql juga masih terdapat error coba samakan nama database sama tidak dengan file koneksi.php yang berada pada direktori /includes/koneksi.php
 
+sqlnya tolong di update password admin
+fajar@mail.com
+password
+
 semoga membantu

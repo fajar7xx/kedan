@@ -62,7 +62,7 @@ $produk = mysqli_fetch_assoc($modalQuery);
 								<div class="footer-left">
 									<!-- Footer Logog -->
 									<div class="footer-logo">
-										<a href="index.php"><img src="theme/img/logo/fix.png" alt="logo"></a>
+										<a href="index.php"><img src="img/logo/fix.png" alt="logo"></a>
 									</div>
 									<div class="footer-static-content">
 										<p>Sebuah portal jual beli online yang memfokuskan diri pada Usaha mikro kecil dan menengah yang terdapat di Kota Medan dan sekitarnya.</p>
@@ -70,7 +70,7 @@ $produk = mysqli_fetch_assoc($modalQuery);
 									<div class="footer-payment">
 										<h2>Metode Pembayaran</h2>
 										<ul>
-											<li><a href="#"><img src="theme/img/logo/pembayaran.png" alt="payment"></a></li>
+											<li><a href="#"><img src="img/logo/pembayaran.png" alt="payment"></a></li>
 										</ul>
 									</div>
 								</div><!-- End Footer Left -->
